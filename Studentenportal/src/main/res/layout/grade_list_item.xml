@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/ListViewItem" >
+
+    <RelativeLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1" >
+        
+        <TextView
+            android:id="@+id/text_examtype"
+            style="@style/ListViewItemText.SecondaryEmphasized.Small"
+            android:layout_alignParentLeft="true"
+            android:text="@string/grade_fp" />
+
+        <TextView
+            android:id="@+id/text_title"
+            style="@style/ListViewItemText.Header"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@id/text_examtype"
+            android:text="Title" />
+
+        <TextView
+            android:id="@+id/text_type"
+            style="@style/ListViewItemText.SecondaryEmphasized"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/text_title"
+            android:paddingRight="@dimen/element_spacing_half"
+            android:text="TYPE" />
+
+        <ImageView
+            android:id="@+id/grade_in_progress"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@id/text_type"
+            android:layout_alignTop="@id/text_type"
+            android:layout_toRightOf="@id/text_type"
+            android:paddingRight="@dimen/element_spacing_half"
+            android:src="@drawable/ic_tag_clock"
+            android:visibility="visible" />
+
+        <TextView
+            android:id="@+id/text_details"
+            style="@style/ListViewItemText.Secondary"
+            android:layout_alignTop="@id/text_type"
+            android:layout_toRightOf="@id/grade_in_progress"
+            android:text="Details..." />
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/text_grade"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="@dimen/element_spacing_half"
+        android:text="TextView"
+        android:textSize="@dimen/text_size_xlarge" >
+    </TextView>
+
+</LinearLayout>

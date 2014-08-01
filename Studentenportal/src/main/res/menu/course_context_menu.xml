@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:title="@string/course_show_details" android:id="@+id/details"></item>
+    <item android:title="@string/course_goto_website" android:id="@+id/website"></item>
+    <item android:title="@string/course_goto_moodle" android:id="@+id/moodle"></item>
+    <item android:title="@string/course_participants" android:id="@+id/participants"></item>
+    <item android:title="@string/course_checklists" android:id="@+id/checklists"></item>
+    <item android:title="@string/course_ignore" android:id="@+id/ignore" android:checkable="true"></item>
+</menu>

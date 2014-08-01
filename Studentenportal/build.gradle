@@ -1,0 +1,32 @@
+buildscript {
+    repositories {
+        mavenCentral()
+    }
+    dependencies {
+        classpath 'com.android.tools.build:gradle:0.12.+'
+    }
+}
+apply plugin: 'com.android.application'
+
+repositories {
+    mavenCentral()
+    maven { url "http://www.bugsense.com/gradle/" }
+}
+
+dependencies {
+    compile fileTree(dir: 'libs', include: '*.jar')
+    compile 'com.android.support:support-v4:20.+'
+    compile 'com.bugsense.trace:bugsense:3.2.2'
+    compile 'com.google.code.gson:gson:2.2.4'
+    compile 'commons-lang:commons-lang:2.6'
+}
+
+android {
+    compileSdkVersion 19
+    buildToolsVersion '19.1.0'
+
+    defaultConfig {
+        minSdkVersion 7
+        targetSdkVersion 14
+    }
+}

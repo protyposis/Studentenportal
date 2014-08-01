@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <PreferenceCategory
+        android:summary="@string/preference_automute_summary"
+        android:title="@string/preference_automute" >
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:key="@string/preference_automute_key"
+            android:persistent="true"
+            android:summary="@string/preference_automute_summary"
+            android:title="@string/preference_automute" />
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:dependency="@string/preference_automute_key"
+            android:key="@string/preference_automute_always_key"
+            android:persistent="true"
+            android:summary="@string/preference_automute_always_summary"
+            android:title="@string/preference_automute_always" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/preference_notifications" >
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="@string/preference_notifications_key"
+            android:persistent="true"
+            android:summary="@string/preference_notifications_summary"
+            android:title="@string/preference_notifications" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/preference_section_campus" >
+        <Preference
+            android:key="@string/preference_campus_key"
+            android:summary="@string/preference_campus_summary"
+            android:title="@string/preference_campus" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/preference_section_miscellaneous" >
+
+        <!-- <ListPreference android:entryValues="@array/interval_times_ms" android:entries="@array/interval_names" android:summary="@string/preference_versioncheck_interval_summary" android:dialogTitle="@string/preference_versioncheck_interval" android:key="@string/preference_versioncheck_interval_key" android:title="@string/preference_versioncheck_interval" android:defaultValue="86400000"></ListPreference> -->
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:key="@string/preference_departuremonitor_launchericon_key"
+            android:persistent="false"
+            android:summary="@string/preference_departuremonitor_launchericon_summary"
+            android:title="@string/preference_departuremonitor_launchericon" >
+        </CheckBoxPreference>
+
+        <Preference
+            android:key="@string/preference_purgecache_key"
+            android:summary="@string/preference_purgecache_summary"
+            android:title="@string/preference_purgecache" />
+    </PreferenceCategory>
+
+</PreferenceScreen>

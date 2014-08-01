@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout style="@style/ActionBar" >
+
+        <ImageButton style="@style/ActionBarButton.Back" />
+
+        <TextView
+            style="@style/ActionBarText.ActivityTitle"
+            android:text="@string/mensa" />
+
+        <TextView
+            android:id="@+id/spacer_dummy"
+            style="@style/ActionBarText.ActivityTitle"
+            android:layout_weight="0.1"
+            android:text="" />
+    </LinearLayout>
+
+    <Spinner
+        android:id="@+id/mensen"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/element_spacing_half" />
+
+    <FrameLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+
+        <LinearLayout
+            android:id="@+id/mensamenu"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical" >
+
+            <at.ac.uniklu.mobile.sportal.ui.viewpagerindicator.TitlePageIndicator
+                android:id="@+id/titles"
+                style="@style/TitlePageIndicator"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content" />
+
+            <android.support.v4.view.ViewPager
+                android:id="@+id/pager"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@android:id/empty"
+            style="@style/EmptyListText"
+            android:text="@string/mensa_closed"
+            android:visibility="gone" />
+
+        <RelativeLayout
+            android:id="@+id/progress"
+            style="@style/GenericProgressBackground"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:visibility="gone" >
+
+            <ProgressBar style="@style/GenericProgressIndicator.Large" />
+        </RelativeLayout>
+    </FrameLayout>
+
+</LinearLayout>

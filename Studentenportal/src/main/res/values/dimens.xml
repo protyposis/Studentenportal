@@ -1,0 +1,30 @@
+<resources>
+    <dimen name="actionbar_height">48dp</dimen>
+    <dimen name="actionbar_fontsize">18sp</dimen>
+    <dimen name="actionbar_fontsize_subtitle">14sp</dimen>
+    <dimen name="sectionheader_fontsize">18sp</dimen>
+    <dimen name="sectionheader_fontsize_big">22sp</dimen>
+
+    <dimen name="automute_indicator_outer_diameter">11dp</dimen>
+    <dimen name="automute_indicator_inner_diameter">8dp</dimen>
+    <dimen name="automute_indicator_inner_offset">1.5dp</dimen>
+    
+    <dimen name="element_spacing_normal">8dp</dimen>
+    <dimen name="element_spacing_half">4dp</dimen>
+    <dimen name="content_padding_normal">16dp</dimen>
+    <dimen name="text_size_small">12sp</dimen>
+    <dimen name="text_size_medium">14sp</dimen>
+    <dimen name="text_size_large">18sp</dimen>
+    <dimen name="text_size_xlarge">22sp</dimen>
+    <dimen name="text_size_diff_large_small">6sp</dimen>
+    
+    <dimen name="widget_margin">8dp</dimen>
+    
+    <dimen name="dashboard_padding">45dp</dimen>
+    <dimen name="dashboard_land_padding">20dp</dimen>
+    <dimen name="dashboard_button_width">105dp</dimen>
+    <dimen name="dashboard_land_button_width">85dp</dimen>
+    <dimen name="dashboard_button_textsize">16sp</dimen>
+    <dimen name="dashboard_land_button_textsize">14sp</dimen>
+    <dimen name="dashboard_button_padding">10dp</dimen>
+</resources>

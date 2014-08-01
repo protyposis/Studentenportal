@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    <LinearLayout style="@style/ActionBar">
+        <ImageButton style="@style/ActionBarButton.Back"/>
+        <TextView style="@style/ActionBarText.ActivityTitle"/>
+    </LinearLayout>
+    <FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+	    <WebView
+	        android:id="@+id/web_view"
+	        android:layout_width="fill_parent"
+	        android:layout_height="fill_parent"/>
+	    <RelativeLayout
+            android:id="@+id/progress"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            style="@style/GenericProgressBackground"
+            android:background="@color/white"
+            android:visibility="gone">
+            <ProgressBar style="@style/GenericProgressIndicator.Large.Light"/>
+    </RelativeLayout>
+    </FrameLayout>
+</LinearLayout>

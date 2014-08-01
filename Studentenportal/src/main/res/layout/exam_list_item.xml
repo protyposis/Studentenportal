@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/ListViewItem"
+    android:descendantFocusability="blocksDescendants" >
+
+    <TextView
+        android:id="@+id/text_title"
+        style="@style/ListViewItemText.Header"
+        android:layout_alignParentLeft="true"
+        android:text="VO Spezifikation und Verifikation" >
+    </TextView>
+
+    <LinearLayout
+        android:id="@+id/icons"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@id/text_title"
+        android:gravity="center_vertical"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/text_details"
+            style="@style/ListViewItemText.Secondary"
+            android:text="20.12.2011 10:00 - 12:00, HS1 A BBBBBB CCCCCCCC DDDDDDDD EEEEEEEE FFFFFFF GGGGGG HHHHHH IIIIII"
+            android:visibility="gone" >
+        </TextView>
+
+        <ImageView
+            android:id="@+id/book_open"
+            style="@style/ExamItemIcon"
+            android:src="@drawable/book_open" >
+        </ImageView>
+
+        <ImageView
+            android:id="@+id/book_closed"
+            style="@style/ExamItemIcon"
+            android:src="@drawable/book_closed"
+            android:visibility="gone" >
+        </ImageView>
+
+        <ImageView
+            android:id="@+id/book_partly"
+            style="@style/ExamItemIcon"
+            android:src="@drawable/book_partly"
+            android:visibility="gone" >
+        </ImageView>
+
+        <ImageView
+            android:id="@+id/oral"
+            style="@style/ExamItemIcon"
+            android:src="@drawable/oral"
+            android:visibility="gone" >
+        </ImageView>
+
+        <ImageView
+            android:id="@+id/written"
+            style="@style/ExamItemIcon"
+            android:src="@drawable/written"
+            android:visibility="gone" >
+        </ImageView>
+
+        <ImageView
+            android:id="@+id/oral_and_written"
+            style="@style/ExamItemIcon"
+            android:src="@drawable/oral_and_written" >
+        </ImageView>
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/text_status"
+        style="@style/ListViewItemText.Secondary"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@id/icons"
+        android:text="angemeldet" >
+    </TextView>
+
+    <TextView
+        android:id="@+id/points_value"
+        style="@style/ListViewItemText.SecondaryEmphasized"
+        android:layout_alignBaseline="@id/text_status"
+        android:layout_marginRight="@dimen/element_spacing_half"
+        android:layout_toLeftOf="@+id/points_label"
+        android:text="000.0"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/points_label"
+        style="@style/ListViewItemText.SecondaryEmphasized"
+        android:layout_alignBaseline="@id/points_value"
+        android:layout_alignParentRight="true"
+        android:text="@string/exam_points" />
+
+</RelativeLayout>

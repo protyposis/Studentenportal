@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="dashboard_padding">20dp</dimen>
+    <dimen name="dashboard_land_padding">15dp</dimen>
+    <dimen name="dashboard_button_width">100dp</dimen>
+    <dimen name="dashboard_land_button_width">68dp</dimen>
+    <dimen name="dashboard_button_textsize">13sp</dimen>
+    <dimen name="dashboard_land_button_textsize">12sp</dimen>
+    <dimen name="dashboard_button_padding">10dp</dimen>
+    
+    <dimen name="text_size_large">16sp</dimen>
+</resources>

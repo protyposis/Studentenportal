@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/ListViewItem"
+    android:orientation="vertical"
+    android:padding="@dimen/element_spacing_normal" >
+
+    <TextView
+        android:id="@+id/text_title"
+        style="@style/ListViewItemText.Header"
+        android:layout_toLeftOf="@+id/checklist"
+        android:text="Title" />
+
+    <TextView
+        android:id="@+id/text_description"
+        style="@style/ListViewItemText.Secondary"
+        android:textColor="@color/white"
+        android:textSize="@dimen/text_size_medium"
+        android:text="Description" />
+
+</LinearLayout>

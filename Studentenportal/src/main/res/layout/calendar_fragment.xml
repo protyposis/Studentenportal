@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <ListView style="@style/ListView" />
+
+    <TextView
+        android:id="@android:id/empty"
+        style="@style/EmptyListText"
+        android:text="@string/dates_list_empty"
+        android:visibility="gone" />
+
+    <RelativeLayout
+        android:id="@+id/progress"
+        style="@style/GenericProgressBackground"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:visibility="gone" >
+
+        <ProgressBar style="@style/GenericProgressIndicator.Large" />
+    </RelativeLayout>
+
+</FrameLayout>

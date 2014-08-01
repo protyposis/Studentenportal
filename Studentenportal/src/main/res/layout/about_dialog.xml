@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="@dimen/element_spacing_half" >
+
+        <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="60dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_margin="10dp"
+            android:src="@drawable/uni_klu_logo_cmyk" >
+        </ImageView>
+
+        <TextView
+            android:id="@+id/about_app_name"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:text="@string/app_name"
+            android:textSize="@dimen/text_size_large" />
+
+        <TextView
+            android:id="@+id/about_version_info"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:text="@string/app_version"
+            android:textSize="@dimen/text_size_medium" />
+
+        <TextView
+            android:id="@+id/about_app_description"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="10dp"
+            android:gravity="center_horizontal"
+            android:text="@string/app_description" />
+
+        <TextView
+            android:id="@+id/about_copyright"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:text="@string/credits_copyright" />
+
+        <TextView
+            android:id="@+id/about_email"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:autoLink="email"
+            android:gravity="center_horizontal"
+            android:text="@string/credits_email"
+            android:textAppearance="?android:attr/textAppearanceSmall" />
+
+        <TextView
+            android:id="@+id/about_facebook_description"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:gravity="center_horizontal"
+            android:text="@string/about_facebook_description" />
+
+        <!-- link unclickable: click is handled programmatically -->
+        <TextView
+            android:id="@+id/about_facebook"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:autoLink="web"
+            android:linksClickable="false"
+            android:gravity="center_horizontal"
+            android:text="@string/credits_facebookpage"
+            android:textAppearance="?android:attr/textAppearanceSmall" />
+
+        <TextView
+            style="@style/TextHeader2"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="@string/about_supporters" />
+
+        <ImageView
+            android:id="@+id/bugsense"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/element_spacing_normal"
+            android:gravity="center_horizontal"
+            android:src="@drawable/bugsense" >
+        </ImageView>
+
+        <TextView
+            style="@style/TextHeader2"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/about_os_licenses" />
+
+        <TextView
+            android:id="@+id/credits"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/element_spacing_half"
+            android:layout_marginTop="@dimen/element_spacing_half"
+            android:textSize="11sp" />
+    </LinearLayout>
+
+</ScrollView>

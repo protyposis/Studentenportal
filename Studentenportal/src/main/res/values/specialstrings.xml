@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--  special chars -->
+    <string translatable="false" name="specialchar_arrowright">→</string>
+    
+    <!-- debug -->
+    <string translatable="false" name="debug">Debug</string>
+    <string translatable="false" name="debug_settings">Debug settings</string>
+    <string translatable="false" name="debug_clear_cache">Clear cache</string>
+    <string translatable="false" name="preference_debug_serverurl">Server</string>
+    <string translatable="false" name="preference_debug_clientmode">Client Mode</string>
+    
+    <!-- server urls -->
+    <string translatable="false" name="api_url_prod">https://campus.aau.at</string>
+    
+    <!-- preference keys -->
+    <string translatable="false" name="preference_debug_serverurl_key">serverurl</string>
+    <string translatable="false" name="preference_debug_clientmode_key">clientmode</string>
+    <string translatable="false" name="preference_automute_key">automute</string>
+    <string translatable="false" name="preference_automute_always_key">alwaysmute</string>
+    <string translatable="false" name="preference_departuremonitor_launchericon_key">departuremonitorlauncher</string>
+    <string translatable="false" name="preference_purgecache_key">purgecache</string>
+    <string translatable="false" name="preference_campus_key">campussettings</string>
+    <string translatable="false" name="preference_campus_phone_mobile_key">preference_campus_phone_mobile</string>
+    <string translatable="false" name="preference_campus_phone_home_key">preference_campus_phone_home</string>
+    <string translatable="false" name="preference_campus_share_phone_mobile_key">preference_campus_share_phone_mobile</string>
+    <string translatable="false" name="preference_campus_share_phone_home_key">preference_campus_share_phone_home</string>
+    <string translatable="false" name="preference_campus_share_picture_key">preference_campus_share_picture</string>
+    <string translatable="false" name="preference_notifications_key">notifications</string>
+    
+    <!--  credits -->
+    <string translatable="false" name="credits_copyright">© 2011–2013 Mario Guggenberger</string>
+    <string translatable="false" name="credits_email">mario.guggenberger@aau.at</string>
+    <string translatable="false" name="credits_facebookpage">facebook.com/Studentenportal</string>
+    <string translatable="false" name="credits_facebookpage_fullurl">https://www.facebook.com/Studentenportal</string>
+    <string translatable="false" name="credits_facebookpage_appurl">fb://profile/286700118032401</string>
+    <string translatable="false" name="credits_iconic"><![CDATA[Some icons taken from Iconic by P.J. Onori, <a href="http://creativecommons.org/licenses/by-sa/3.0/">CC BY-SA 3.0</a>]]></string>
+    <string translatable="false" name="credits_tnp"><![CDATA[“Tracking Location” symbol by Friedrich Santana, “Map Marker” symbol by Nathan Borror, from <a href="http://thenounproject.com/">The Noun Project</a> collection]]></string>
+    <string translatable="false" name="credits_osm"><![CDATA[Map data (c) <a href="http://www.openstreetmap.org/">OpenStreetMap</a> contributors, <a href="http://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>]]></string>
+    <string translatable="false" name="credits_leaflet"><![CDATA[Leaflet Copyright (c) 2010-2011, CloudMade, Vladimir Agafonkin. All rights reserved. <a href="https://raw.github.com/CloudMade/Leaflet/master/LICENSE">license</a>]]></string>
+    <string translatable="false" name="credits_prevel"><![CDATA[Prevel <a href="http://opensource.org/licenses/MIT">MIT License</a>]]></string>
+    <string translatable="false" name="credits_gson"><![CDATA[Gson licensed under the <a href="http://www.apache.org/licenses/LICENSE-2.0">Apache License, Version 2.0</a>]]></string>
+    <string translatable="false" name="credits_vpi"><![CDATA[ViewPagerIndicator licensed under the <a href="http://www.apache.org/licenses/LICENSE-2.0">Apache License, Version 2.0</a>]]></string>
+</resources>

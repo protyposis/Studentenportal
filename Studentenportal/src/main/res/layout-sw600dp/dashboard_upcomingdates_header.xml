@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="@dimen/element_spacing_normal"
+    android:layout_marginRight="@dimen/element_spacing_normal"
+    android:layout_marginTop="@dimen/element_spacing_normal" >
+
+    <TextView
+        android:id="@+id/agenda_header"
+        style="@style/SectionHeaderText.Dashboard"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/dates_upcoming" />
+
+    <TextView
+        android:id="@+id/automute_toggle"
+        style="@style/SectionHeaderText.Dashboard"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:background="@drawable/db_button_bg2"
+        android:clickable="true"
+        android:drawablePadding="@dimen/element_spacing_half"
+        android:drawableRight="@android:drawable/presence_offline"
+        android:paddingLeft="@dimen/element_spacing_half"
+        android:paddingRight="@dimen/element_spacing_half"
+        android:text="@string/automute"
+        android:textColor="@color/text_primary" />
+
+</RelativeLayout>

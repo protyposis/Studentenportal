@@ -1,0 +1,12 @@
+<!-- copied from android SDK 10 simple_list_item_checked.xml and modified -->
+<CheckedTextView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@android:id/text1"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:textColor="@color/text_primary"
+    android:textSize="@dimen/text_size_large"
+    android:gravity="center_vertical"
+    android:checkMark="?android:attr/textCheckMark"
+    android:paddingLeft="@dimen/element_spacing_normal"
+    android:paddingRight="@dimen/element_spacing_normal"
+/>

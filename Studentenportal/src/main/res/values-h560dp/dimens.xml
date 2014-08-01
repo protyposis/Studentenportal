@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Nexus 4 dashboard buttons need to fill bigger space to avoid space between upcoming dates and lower screen border -->
+    <dimen name="dashboard_padding">60dp</dimen>
+</resources>

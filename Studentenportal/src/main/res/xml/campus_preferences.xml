@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+    
+    <PreferenceCategory android:title="@string/preference_campus_section_contactdata" >
+        <EditTextPreference
+            android:key="@string/preference_campus_phone_mobile_key"
+            android:inputType="phone"
+            android:title="@string/preference_campus_phone_mobile" />
+        <EditTextPreference
+            android:key="@string/preference_campus_phone_home_key"
+            android:inputType="phone"
+            android:title="@string/preference_campus_phone_home" />
+    </PreferenceCategory>
+    
+    <PreferenceCategory android:title="@string/preference_campus_section_participants_datasharing" >
+        <Preference
+            android:layout="@layout/preference_label"
+            android:selectable="false"
+            android:summary="@string/preference_campus_participants_datasharing_notice" />
+
+        <CheckBoxPreference android:key="@string/preference_campus_share_phone_mobile_key" 
+            android:title="@string/preference_campus_phone_mobile" />
+        <CheckBoxPreference android:key="@string/preference_campus_share_phone_home_key" 
+            android:title="@string/preference_campus_phone_home" />
+        <CheckBoxPreference android:key="@string/preference_campus_share_picture_key" 
+            android:title="@string/preference_campus_picture" />
+    </PreferenceCategory>
+    
+</PreferenceScreen>

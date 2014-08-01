@@ -1,0 +1,331 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <style name="BaseBar">
+        <item name="android:orientation">horizontal</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">@dimen/actionbar_height</item>
+        <item name="android:background">@drawable/ab_solid_example</item>
+        <item name="android:padding">0dp</item>
+    </style>
+    
+    <style name="ActionBar" parent="BaseBar">
+        <item name="android:id">@+id/actionbar</item>
+    </style>
+    <style name="ActionBarButton">
+        <item name="android:layout_width">@dimen/actionbar_height</item>
+        <item name="android:layout_height">@dimen/actionbar_height</item>
+        <item name="android:scaleType">center</item>
+        <item name="android:background">@drawable/actionbar_button_bg</item>
+    </style>
+    <style name="ActionBarButton.Home">
+        <item name="android:id">@+id/actionbar_home</item>
+        <item name="android:src">@drawable/actionbar_logo</item>
+        <item name="android:layout_marginRight">5dp</item>
+        <item name="android:padding">0dp</item>
+    </style>
+    <style name="ActionBarButton.Back" parent="ActionBarButton.Home">
+        <item name="android:src">@drawable/actionbar_logo_back</item>
+        <item name="android:layout_width">52dp</item>
+    </style>
+    <style name="ActionBarButton.Action">
+    </style>
+    <style name="ActionBarButton.ProgressIndicator">
+        <item name="android:id">@+id/actionbar_progress</item>
+        <item name="android:indeterminate">true</item>
+        <item name="android:padding">8dp</item>
+        <item name="android:visibility">gone</item>
+        <item name="android:indeterminateDrawable">@anim/actionbar_progress_animated</item>
+    </style>
+    <style name="ActionBarButtonSeparator">
+        <item name="android:layout_width">1px</item>
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:src">@drawable/actionbar_separator</item>
+    </style>
+    <style name="ActionBarText">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:layout_gravity">center_vertical</item>
+    </style>
+    <style name="ActionBarText.ActivityTitle">
+        <item name="android:id">@+id/view_title</item>
+        <item name="android:text">@string/app_name</item>
+        <item name="android:textSize">@dimen/actionbar_fontsize</item>
+        <item name="android:layout_weight">1</item>
+    </style>
+    <style name="ActionBarText.ActivitySubTitle">
+        <!-- <item name="android:id">@+id/view_subtitle</item> -->
+        <item name="android:text">@string/app_name</item>
+        <item name="android:textSize">@dimen/actionbar_fontsize_subtitle</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:singleLine">true</item>
+    </style>
+    <style name="ActionBarTextContainer">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:orientation">vertical</item>
+        <item name="android:layout_gravity">center_vertical</item>
+    </style>
+    
+    <style name="BottomBar" parent="BaseBar">
+        <item name="android:background">@color/unilightblue_lighter_transparent</item>
+        <item name="android:layout_gravity">bottom</item>
+    </style>
+    <style name="BottomBarButton" parent="ActionBarButton">
+        <item name="android:src">@drawable/header_logo</item>
+        <item name="android:layout_gravity">center_horizontal</item>
+    </style>
+    
+    <style name="UpdateNotificationBar" parent="BottomBar">
+        <item name="android:background">@color/notification_bg</item>
+        <item name="android:layout_gravity">bottom</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:padding">@dimen/element_spacing_normal</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:drawablePadding">@dimen/element_spacing_half</item>
+        <item name="android:drawableLeft">@drawable/ic_action_warning</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:fontFamily">sans-serif-light</item>
+    </style>
+	    
+	<style name="TextShadow">
+		<item name="android:shadowColor">#333</item>
+    	<item name="android:shadowDx">0</item>
+    	<item name="android:shadowDy">0</item>
+    	<item name="android:shadowRadius">1</item>
+	</style>
+	<style name="DashboardButton">
+	    <item name="android:layout_width">@dimen/dashboard_button_width</item>
+        <item name="android:layout_height">wrap_content</item>
+		<item name="android:background">@drawable/db_button_bg</item>
+    	<item name="android:textColor">@color/white</item>
+    	<item name="android:gravity">center</item>
+    	<item name="android:drawablePadding">@dimen/element_spacing_half</item>
+    	<item name="android:textSize">@dimen/dashboard_button_textsize</item>
+    	<item name="android:paddingTop">@dimen/dashboard_button_padding</item>
+        <item name="android:paddingBottom">@dimen/dashboard_button_padding</item>
+        <item name="android:paddingLeft">@dimen/dashboard_button_padding</item>
+        <item name="android:paddingRight">@dimen/dashboard_button_padding</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:singleLine">true</item>
+	</style>
+	<style name="DashboardButton.Landscape">
+	    <item name="android:layout_width">@dimen/dashboard_land_button_width</item>
+        <item name="android:textSize">@dimen/dashboard_land_button_textsize</item>
+    </style>
+	<style name="SectionHeader">
+		<item name="android:layout_width">fill_parent</item>
+    	<item name="android:layout_height">wrap_content</item>
+    	<item name="android:padding">@dimen/element_spacing_half</item>
+    	<item name="android:textColor">@color/unilightblue</item>
+    	<item name="android:textSize">@dimen/sectionheader_fontsize</item>
+	</style>
+	<style name="SectionHeader.Large">
+	    <item name="android:textSize">@dimen/sectionheader_fontsize_big</item>
+	</style>
+	<style name="SectionHeader.Dashboard">
+    	<item name="android:background">@drawable/sectionheader</item>
+    	<item name="android:textStyle">bold</item>
+    	<item name="android:textSize">14sp</item>
+	</style>
+	<style name="SectionHeaderText" parent="TextShadow">
+    	<item name="android:textColor">@color/unilightblue</item>
+    	<item name="android:textSize">@dimen/sectionheader_fontsize</item>
+	</style>
+	<style name="SectionHeaderText.Dashboard">
+    	<item name="android:textStyle">bold</item>
+    	<item name="android:textSize">14sp</item>
+    	<item name="android:textAllCaps">true</item>
+	</style>
+	<style name="CalendarDateHeader">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:padding">@dimen/element_spacing_half</item>
+        <item name="android:background">@color/unidarkblue_dark</item>
+    </style>
+    <style name="CalendarDateHeaderText">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+	<style name="Text">
+	    <item name="android:textSize">14sp</item>
+		<item name="android:padding">0dp</item>
+		<item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+	</style>
+	<style name="Label" parent="Text">
+		<item name="android:textColor">@color/text_primary</item>
+		<item name="android:textStyle">bold</item>
+	</style>
+	<style name="LabelValue" parent="Text">
+		<item name="android:textColor">@color/text_secondary</item>
+		<item name="android:singleLine">false</item>
+	</style>
+	<style name="ProfileRow">
+		<item name="android:layout_width">fill_parent</item>
+		<item name="android:layout_height">wrap_content</item>
+		<item name="android:paddingTop">@dimen/element_spacing_half</item>
+		<item name="android:paddingBottom">@dimen/element_spacing_half</item>
+		<item name="android:orientation">vertical</item>
+	</style>
+	<style name="WrapContent">
+		<item name="android:layout_width">fill_parent</item>
+		<item name="android:layout_height">wrap_content</item>
+		<item name="android:textColor">@color/black</item>
+	</style>
+	<style name="ExamItemIcon">
+        <item name="android:layout_width">18dp</item>
+        <item name="android:layout_height">18dp</item>
+        <item name="android:layout_marginLeft">@dimen/element_spacing_half</item>
+        <item name="android:layout_marginTop">@dimen/element_spacing_half</item>
+        <item name="android:layout_marginBottom">@dimen/element_spacing_half</item>
+    </style>
+    <style name="Tag">
+	    <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+		<item name="android:textColor">@color/white</item>
+    	<item name="android:textSize">12sp</item>
+    	<item name="android:textStyle">bold</item>
+    	<item name="android:includeFontPadding">false</item>
+    	<item name="android:paddingLeft">4sp</item>
+    	<item name="android:paddingRight">4sp</item>
+        <item name="android:paddingBottom">2sp</item>
+        <item name="android:paddingTop">2sp</item>
+	</style>
+	
+	<!--  http://stackoverflow.com/questions/5442183/using-the-animated-circle-in-an-imageview-while-loading-stuff -->
+	<style name="GenericProgressBackground" parent="android:Theme">
+	    <item name="android:layout_width">fill_parent</item>    
+	    <item name="android:layout_height">fill_parent</item>
+	    <item name="android:gravity">center</item>  
+	    <item name="android:background">@color/background</item>
+	</style>
+	<style name="GenericProgressIndicator" parent="@android:style/Widget.ProgressBar">
+	    <item name="android:layout_width">wrap_content</item>
+	    <item name="android:layout_height">wrap_content</item>
+	    <item name="android:indeterminate">true</item> 
+	</style>
+	<style name="GenericProgressIndicator.Small" parent="@android:style/Widget.ProgressBar.Small">
+	    <item name="android:layout_width">wrap_content</item>
+	    <item name="android:layout_height">wrap_content</item>
+	    <item name="android:indeterminate">true</item> 
+	</style>
+	<style name="GenericProgressIndicator.Large" parent="@android:style/Widget.ProgressBar.Large">
+	    <item name="android:layout_width">wrap_content</item>
+	    <item name="android:layout_height">wrap_content</item>
+	    <item name="android:indeterminate">true</item> 
+	</style>
+	<style name="GenericProgressIndicator.Large.Light" parent="@android:style/Widget.ProgressBar.Large.Inverse">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:indeterminate">true</item>
+    </style>
+	
+	<style name="TitlePageIndicator" parent="Widget.TitlePageIndicator">
+        <item name="footerColor">@color/unilightblue</item>
+        <item name="titlePadding">30dp</item>
+        <item name="clipPadding">0dp</item>
+        <item name="textSize">12sp</item>
+        <item name="selectedColor">@color/unilightblue</item>
+        <item name="selectedBold">false</item>
+        <item name="android:textAppearance">@style/TextAppearance.TabPageIndicator</item>
+        <item name="android:background">@color/ab_background</item>
+        <item name="footerLineHeight">2px</item>
+    </style>
+    
+	<style name="DepartureMonitor"></style>
+	<style name="DepartureMonitor.LineIcon">
+	    <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textAppearance">?android:attr/textAppearanceMedium</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:paddingLeft">@dimen/element_spacing_half</item>
+        <item name="android:paddingRight">@dimen/element_spacing_half</item>
+        <item name="android:layout_centerVertical">true</item>
+        <item name="android:includeFontPadding">false</item>
+        <item name="android:layout_marginRight">@dimen/element_spacing_half</item>
+	</style>
+	<style name="DepartureMonitor.LineIcon.STW">
+        <item name="android:textStyle">bold</item>
+        <item name="android:background">@color/uniorange</item>
+        <item name="android:paddingTop">2dp</item>
+        <item name="android:paddingBottom">2dp</item>
+	</style>
+	<style name="DepartureMonitor.LineIcon.OEBB">
+        <item name="android:background">@drawable/oebb_line_bg</item>
+    </style>
+    
+	<style name="TextHeader2">
+        <item name="android:textSize">12sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:textColor">@color/unilightblue</item>
+        <item name="android:paddingTop">@dimen/element_spacing_half</item>
+        <item name="android:paddingBottom">@dimen/element_spacing_half</item>
+        <item name="android:background">@drawable/accent_bottom_border</item>
+    </style>
+    
+	<style name="EmptyListText">
+	    <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">@color/text_secondary</item>
+        <item name="android:textSize">@dimen/text_size_large</item>
+        <item name="android:padding">@dimen/content_padding_normal</item>
+	</style>
+	
+	<style name="ListView">
+	    <item name="android:id">@android:id/list</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:visibility">gone</item>
+        <item name="android:cacheColorHint">@color/background</item>
+	</style>
+	<style name="ListViewItem">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:minHeight">?android:attr/listPreferredItemHeight</item>
+        <item name="android:paddingTop">@dimen/element_spacing_half</item>
+        <item name="android:paddingBottom">@dimen/element_spacing_half</item>
+        <item name="android:paddingLeft">@dimen/element_spacing_normal</item>
+        <item name="android:paddingRight">@dimen/element_spacing_normal</item>
+    </style>
+    <style name="ListViewItemText">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">@dimen/text_size_medium</item>
+    </style>
+    <style name="ListViewItemText.Header">
+        <item name="android:ellipsize">end</item>
+        <item name="android:fontFamily">sans-serif-light</item>
+        <item name="android:maxLines">2</item>
+        <item name="android:textColor">@drawable/course_text_color</item>
+        <item name="android:textSize">@dimen/text_size_large</item>
+    </style>
+    <style name="ListViewItemText.SecondaryEmphasized">
+        <item name="android:textColor">@color/text_primary</item>
+    </style>
+    <style name="ListViewItemText.Secondary">
+        <item name="android:textColor">@color/text_secondary</item>
+    </style>
+    <style name="ListViewItemText.SecondaryEmphasized.Small">
+        <item name="android:textSize">@dimen/text_size_small</item>
+    </style>
+    <style name="ListViewItemText.Secondary.Small">
+        <item name="android:textSize">@dimen/text_size_small</item>
+    </style>
+    
+    <style name="ButtonBarButtonStyle">
+        <item name="android:background">@android:drawable/list_selector_background</item>
+        <item name="android:minHeight">?android:attr/listPreferredItemHeight</item>
+        <item name="android:textColor">@color/text_primary</item>
+        <item name="android:textSize">@dimen/text_size_large</item>
+    </style>
+	
+</resources>

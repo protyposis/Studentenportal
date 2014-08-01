@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" 
+    android:id="@+id/bus_departures_filter"
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+    
+    <Button android:id="@+id/dateselector"
+        android:text="@string/dates_today"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:textSize="12sp"
+        android:drawableLeft="@drawable/ic_btn_calendar"/>
+    
+    <Button android:id="@+id/timeselector"
+        android:text="@string/dates_now"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:textSize="12sp"
+        android:drawableRight="@drawable/ic_btn_time"/>
+    
+</LinearLayout>

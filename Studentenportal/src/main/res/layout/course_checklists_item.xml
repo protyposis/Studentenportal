@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/ListViewItem" >
+
+    <TextView
+        android:id="@+id/text_title"
+        style="@style/ListViewItemText.Header"
+        android:layout_alignParentLeft="true"
+        android:layout_toLeftOf="@+id/text_label"
+        android:text="Title" >
+    </TextView>
+
+    <TextView
+        android:id="@+id/text_label"
+        style="@style/Tag"
+        android:layout_alignBaseline="@id/text_title"
+        android:layout_alignParentRight="true"
+        android:background="@color/date_running"
+        android:text="OFFEN" />
+
+    <TextView
+        android:id="@+id/text_expires"
+        style="@style/ListViewItemText.Secondary"
+        android:layout_alignLeft="@id/text_title"
+        android:layout_below="@id/text_title"
+        android:text="Ablaufdatum..." >
+    </TextView>
+
+    <TextView
+        android:id="@+id/text_discussion"
+        style="@style/ListViewItemText.Secondary"
+        android:layout_alignLeft="@id/text_expires"
+        android:layout_below="@id/text_expires"
+        android:text="Besprechungsdatum..." >
+    </TextView>
+
+    <TextView
+        android:id="@+id/text_checks"
+        style="@style/ListViewItemText.SecondaryEmphasized"
+        android:layout_alignBaseline="@id/text_discussion"
+        android:layout_alignParentRight="true"
+        android:text="99/99"
+        android:textColor="@color/text_primary" />
+
+</RelativeLayout>

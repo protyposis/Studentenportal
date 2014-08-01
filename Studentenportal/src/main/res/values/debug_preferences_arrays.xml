@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+        <array name="servernames">
+                <item>campus.aau.at (ssl)</item>
+        </array>
+        <array name="serverurls">
+                <item>@string/api_url_prod</item>
+        </array>
+        <array name="clientmodes">
+        		<item>AUTO</item>
+                <item>API</item>
+                <item>HTML</item>
+        </array>
+</resources>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ListPreference 
+    	android:entries="@array/servernames" 
+    	android:entryValues="@array/serverurls" android:title="@string/preference_debug_serverurl" android:persistent="true" android:defaultValue="@string/api_url_prod" android:key="@string/preference_debug_serverurl_key">
+   	</ListPreference>
+   	<ListPreference 
+    	android:entries="@array/clientmodes" 
+    	android:entryValues="@array/clientmodes" android:title="@string/preference_debug_clientmode" android:persistent="true" android:defaultValue="API" android:key="@string/preference_debug_clientmode_key">
+   	</ListPreference>
+</PreferenceScreen>

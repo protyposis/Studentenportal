@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="at.ac.uniklu.mobile.sportal"
+    android:versionCode="24"
+    android:versionName="1.8.1" >
+
+    <uses-sdk
+        android:minSdkVersion="7"
+        android:targetSdkVersion="14" />
+
+    <permission
+        android:name="at.ac.uniklu.mobile.sportal.permission.C2D_MESSAGE"
+        android:protectionLevel="signature" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.NFC" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="at.ac.uniklu.mobile.sportal.permission.C2D_MESSAGE" />
+    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+
+    <application
+        android:name="StudentportalApplication"
+        android:allowBackup="false"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/SportalTheme.NoBar" >
+        <activity
+            android:name="LoginActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize|screenLayout"
+            android:label="@string/app_name"
+            android:launchMode="singleTop"
+            android:theme="@style/SportalTheme.Login"
+            android:windowSoftInputMode="stateHidden" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="DashboardActivity"
+            android:label="@string/app_name"
+            android:launchMode="singleTop" >
+        </activity>
+        <activity
+            android:name="CourseListActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize|screenLayout"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="CourseChecklistsActivity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="CourseChecklistActivity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="CourseParticipantsListActivity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="ExamListActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize|screenLayout"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="GradeListActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize|screenLayout"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="CalendarActivity"
+            android:label="@string/app_name"
+            android:launchMode="singleTop" >
+        </activity>
+        <activity
+            android:name="ProfileActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize|screenLayout"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="BusDeparturesActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize|screenLayout"
+            android:label="@string/app_name_departuremonitor" >
+        </activity>
+        <activity
+            android:name="BusDeparturesLaunchActivity"
+            android:enabled="false"
+            android:icon="@drawable/ic_launcher_haltestelle"
+            android:label="@string/app_name_departuremonitor"
+            android:taskAffinity="at.ac.uniklu.mobile.sportal.DepartureMonitor" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="BusStopsActivity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="WebViewActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize|screenLayout"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="MapActivity"
+            android:exported="false"
+            android:label="@string/app_name"
+            android:configChanges="keyboardHidden|orientation|screenSize|screenLayout"
+            android:windowSoftInputMode="adjustPan" >
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+
+                <data
+                    android:host="map"
+                    android:path="/search/room"
+                    android:scheme="at.ac.uniklu.mobile.sportal" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="MensaActivity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="DebugPreferenceActivity"
+            android:label="@string/app_name"
+            android:theme="@style/SportalTheme" >
+        </activity>
+        <activity
+            android:name="MainPreferenceActivity"
+            android:label="@string/settings"
+            android:theme="@style/SportalTheme" >
+        </activity>
+        <activity
+            android:name="CampusPreferenceActivity"
+            android:label="campus.aau.at"
+            android:theme="@style/SportalTheme" >
+        </activity>
+        <activity
+            android:name="DebugActivity"
+            android:label="@string/app_name"
+            android:theme="@style/SportalTheme" >
+        </activity>
+
+        <activity-alias
+            android:name="com.android.internal.app.ResolverActivity"
+            android:exported="true"
+            android:targetActivity="LoginActivity" >
+        </activity-alias>
+
+        <receiver
+            android:name=".service.OnBootReceiver"
+            android:exported="false" >
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+            </intent-filter>
+        </receiver>
+        <receiver android:name=".service.OnAlarmReceiver" >
+        </receiver>
+        <receiver
+            android:name=".service.OnRingerModeChangedReceiver"
+            android:exported="false" >
+            <intent-filter>
+                <action android:name="android.media.RINGER_MODE_CHANGED" />
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name=".service.OnLocationUpdateReceiver"
+            android:exported="false" >
+            <intent-filter>
+                <action android:name="at.ac.uniklu.mobile.sportal.LOCATION_UPDATE" />
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name=".widget.SimpleCalendarWidgetProvider"
+            android:exported="false"
+            android:icon="@drawable/ic_launcher"
+            android:label="@string/widget_simplecalendar_title" >
+>
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.appwidget.provider"
+                android:resource="@xml/widgetinfo_simplecalendar" />
+        </receiver>
+        <receiver
+            android:name=".notification.GCMBroadcastReceiver"
+            android:permission="com.google.android.c2dm.permission.SEND" >
+            <intent-filter>
+                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+                <action android:name="com.google.android.c2dm.intent.REGISTRATION" />
+
+                <category android:name="at.ac.uniklu.mobile.sportal" />
+            </intent-filter>
+        </receiver>
+
+        <service
+            android:name=".service.MutingService"
+            android:exported="false" />
+        <service
+            android:name=".widget.SimpleCalendarWidgetService"
+            android:exported="false" />
+        <service android:name=".notification.GCMIntentService" />
+        <service
+            android:name=".notification.GCMCampusService"
+            android:exported="false" />
+    </application>
+
+</manifest>

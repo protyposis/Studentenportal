@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="SportalTheme" parent="@android:style/Theme.Holo">
+        <item name="android:windowBackground">@color/background</item>
+        <item name="android:textColorLink">@color/link</item>
+        
+        <!-- for programmatic instantiation -->
+        <item name="actionbarButtonStyle">@style/ActionBarButton.Action</item>
+        <item name="actionbarButtonSeparatorStyle">@style/ActionBarButtonSeparator</item>
+        <item name="actionbarProgressIndicatorStyle">@style/ActionBarButton.ProgressIndicator</item>
+        <item name="departuremonitorLineIconStyleSTW">@style/DepartureMonitor.LineIcon.STW</item>
+        <item name="departuremonitorLineIconStyleOEBB">@style/DepartureMonitor.LineIcon.OEBB</item>
+        
+        <item name="buttonBarButtonStyle">?android:attr/buttonBarButtonStyle</item>
+    </style>
+
+    <style name="SportalTheme.NoBar">
+        <item name="android:windowActionBar">false</item>
+        <item name="android:windowNoTitle">true</item>
+    </style>
+
+</resources>

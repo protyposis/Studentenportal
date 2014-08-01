@@ -1,0 +1,9 @@
+<resources>
+    <dimen name="dashboard_padding">25dp</dimen>
+    <dimen name="dashboard_land_padding">20dp</dimen>
+    <dimen name="dashboard_button_width">105dp</dimen>
+    <dimen name="dashboard_land_button_width">85dp</dimen>
+    <dimen name="dashboard_button_textsize">16sp</dimen>
+    <dimen name="dashboard_land_button_textsize">14sp</dimen>
+    <dimen name="dashboard_button_padding">10dp</dimen>
+</resources>

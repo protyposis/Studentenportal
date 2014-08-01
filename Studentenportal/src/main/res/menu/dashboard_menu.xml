@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/map"
+        android:icon="@android:drawable/ic_menu_mapmode"
+        android:title="@string/map">
+    </item>
+    <item
+        android:id="@+id/mensa"
+        android:icon="@android:drawable/ic_menu_today"
+        android:title="@string/mensa">
+    </item>
+    <item
+        android:id="@+id/settings"
+        android:icon="@android:drawable/ic_menu_preferences"
+        android:title="@string/settings">
+    </item>
+    <item
+        android:id="@+id/about"
+        android:icon="@android:drawable/ic_menu_info_details"
+        android:title="@string/about">
+    </item>
+    <item
+        android:id="@+id/logout"
+        android:icon="@android:drawable/ic_menu_close_clear_cancel"
+        android:title="@string/logout">
+    </item>
+
+</menu>

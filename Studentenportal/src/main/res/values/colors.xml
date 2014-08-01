@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <color name="background">#191919</color>
+    <color name="ab_background">#323232</color>
+    <color name="ab_stacked_background">#404040</color>
+    <color name="ab_stacked_background_transparent">#aa404040</color>
+    <color name="notification_bg">#545454</color>
+    
+    <color name="white">#ffffffff</color>
+    <color name="black">#ff000000</color>
+    <color name="transparent">#00000000</color>
+    <color name="gray_verydark">#111111</color>
+    <color name="lightgray">#DDDDDD</color>
+
+    <color name="uniorange">#faa74b</color>
+    
+    <!-- color shades: http://colllor.com -->
+    <color name="unilightblue">#4699c2</color>
+    <color name="unilightblue_light">#75B3D1</color>
+    <color name="unilightblue_lighter">#B3D4E6</color>
+    <color name="unilightblue_dark">#2E6B8A</color>
+    <color name="unilightblue_darker">#193B4D</color>
+    
+    <color name="unidarkblue">#336b81</color>
+    <color name="unidarkblue_light">#509BB9</color>
+    <color name="unidarkblue_lighter">#8ABDD0</color>
+    <color name="unilightblue_lighter_transparent">#aa4699c2</color>
+    <color name="unidarkblue_dark">#1D3D49</color>
+    <color name="unidarkblue_darker">#060C0F</color>
+    
+    <color name="text_primary">#ffffff</color>
+    <color name="text_secondary">#ADADAD</color>
+    <color name="text_tertiary">#5C5C5C</color>
+    <color name="link">#84bbd6</color>
+    
+    <color name="grade_1">#00ff00</color>
+    <color name="grade_2">#80ff00</color>
+    <color name="grade_3">#ffff00</color>
+    <color name="grade_4">#ff8000</color>
+    <color name="grade_5">#ff0000</color>
+    
+    <color name="date_canceled">#ff0000</color>
+    <color name="date_running">#008000</color>
+    
+    <color name="oebb">#cc0000</color>
+</resources>

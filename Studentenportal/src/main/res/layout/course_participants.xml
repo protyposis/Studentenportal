@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout style="@style/ActionBar" >
+
+        <ImageButton style="@style/ActionBarButton.Back" />
+
+        <LinearLayout style="@style/ActionBarTextContainer" >
+
+            <TextView
+                android:id="@+id/view_subtitle"
+                style="@style/ActionBarText.ActivitySubTitle" />
+
+            <TextView
+                style="@style/ActionBarText.ActivityTitle"
+                android:text="@string/course_participants" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <FrameLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+
+        <ListView style="@style/ListView" />
+
+        <TextView
+            android:id="@android:id/empty"
+            style="@style/EmptyListText"
+            android:text="@string/course_participants_empty"
+            android:visibility="gone" />
+
+        <RelativeLayout
+            android:id="@+id/progress"
+            style="@style/GenericProgressBackground"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:visibility="gone" >
+
+            <ProgressBar style="@style/GenericProgressIndicator.Large" />
+        </RelativeLayout>
+    </FrameLayout>
+
+</LinearLayout>

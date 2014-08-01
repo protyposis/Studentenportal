@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout style="@style/ActionBar" >
+
+        <ImageButton style="@style/ActionBarButton.Home" />
+
+        <TextView style="@style/ActionBarText.ActivityTitle" />
+    </LinearLayout>
+
+    <fragment
+        android:id="@+id/menu"
+        android:name="at.ac.uniklu.mobile.sportal.DashboardMenuFragment"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        tools:layout="@layout/dashboard_menu" />
+
+    <include layout="@layout/dashboard_upcomingdates_header" />
+
+    <FrameLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_margin="@dimen/element_spacing_normal"
+        android:background="@drawable/unilightblue_frame" >
+
+        <fragment
+            android:id="@+id/upcomingdates"
+            android:name="at.ac.uniklu.mobile.sportal.CalendarFragment"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            tools:layout="@layout/calendar_fragment" />
+    </FrameLayout>
+
+</LinearLayout>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list xmlns:android="http://schemas.android.com/apk/res/android" android:oneshot="false">
+ <item android:duration="70">
+  <rotate android:drawable="@drawable/ic_action_refresh" android:pivotX="50%" android:pivotY="50%" android:fromDegrees="0" android:toDegrees="20" android:repeatCount="1" />
+ </item>
+ <item android:duration="70">
+  <rotate android:drawable="@drawable/ic_action_refresh" android:pivotX="50%" android:pivotY="50%" android:fromDegrees="20" android:toDegrees="40" android:repeatCount="1" />
+ </item>
+ <item android:duration="70">
+  <rotate android:drawable="@drawable/ic_action_refresh" android:pivotX="50%" android:pivotY="50%" android:fromDegrees="40" android:toDegrees="60" android:repeatCount="1" />
+ </item>
+ <item android:duration="70">
+  <rotate android:drawable="@drawable/ic_action_refresh" android:pivotX="50%" android:pivotY="50%" android:fromDegrees="60" android:toDegrees="80" android:repeatCount="1" />
+ </item>
+ <item android:duration="70">
+  <rotate android:drawable="@drawable/ic_action_refresh" android:pivotX="50%" android:pivotY="50%" android:fromDegrees="80" android:toDegrees="100" android:repeatCount="1" />
+ </item>
+ <item android:duration="70">
+  <rotate android:drawable="@drawable/ic_action_refresh" android:pivotX="50%" android:pivotY="50%" android:fromDegrees="100" android:toDegrees="120" android:repeatCount="1" />
+ </item>
+ <item android:duration="70">
+  <rotate android:drawable="@drawable/ic_action_refresh" android:pivotX="50%" android:pivotY="50%" android:fromDegrees="120" android:toDegrees="140" android:repeatCount="1" />
+ </item>
+ <item android:duration="70">
+  <rotate android:drawable="@drawable/ic_action_refresh" android:pivotX="50%" android:pivotY="50%" android:fromDegrees="140" android:toDegrees="160" android:repeatCount="1" />
+ </item>
+ <item android:duration="70">
+  <rotate android:drawable="@drawable/ic_action_refresh" android:pivotX="50%" android:pivotY="50%" android:fromDegrees="160" android:toDegrees="180" android:repeatCount="1" />
+ </item>
+ <item android:duration="70">
+  <rotate android:drawable="@drawable/ic_action_refresh" android:pivotX="50%" android:pivotY="50%" android:fromDegrees="180" android:toDegrees="200" android:repeatCount="1" />
+ </item>
+ <item android:duration="70">
+  <rotate android:drawable="@drawable/ic_action_refresh" android:pivotX="50%" android:pivotY="50%" android:fromDegrees="200" android:toDegrees="220" android:repeatCount="1" />
+ </item>
+ <item android:duration="70">
+  <rotate android:drawable="@drawable/ic_action_refresh" android:pivotX="50%" android:pivotY="50%" android:fromDegrees="220" android:toDegrees="240" android:repeatCount="1" />
+ </item>
+ <item android:duration="70">
+  <rotate android:drawable="@drawable/ic_action_refresh" android:pivotX="50%" android:pivotY="50%" android:fromDegrees="240" android:toDegrees="260" android:repeatCount="1" />
+ </item>
+ <item android:duration="70">
+  <rotate android:drawable="@drawable/ic_action_refresh" android:pivotX="50%" android:pivotY="50%" android:fromDegrees="260" android:toDegrees="280" android:repeatCount="1" />
+ </item>
+ <item android:duration="70">
+  <rotate android:drawable="@drawable/ic_action_refresh" android:pivotX="50%" android:pivotY="50%" android:fromDegrees="280" android:toDegrees="300" android:repeatCount="1" />
+ </item>
+ <item android:duration="70">
+  <rotate android:drawable="@drawable/ic_action_refresh" android:pivotX="50%" android:pivotY="50%" android:fromDegrees="300" android:toDegrees="320" android:repeatCount="1" />
+ </item>
+ <item android:duration="70">
+  <rotate android:drawable="@drawable/ic_action_refresh" android:pivotX="50%" android:pivotY="50%" android:fromDegrees="320" android:toDegrees="340" android:repeatCount="1" />
+ </item>
+ <item android:duration="70">
+  <rotate android:drawable="@drawable/ic_action_refresh" android:pivotX="50%" android:pivotY="50%" android:fromDegrees="340" android:toDegrees="360" android:repeatCount="1" />
+ </item>
+</animation-list>

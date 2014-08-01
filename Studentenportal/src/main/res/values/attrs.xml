@@ -1,0 +1,12 @@
+<resources>
+    <declare-styleable name="Theme">
+        <attr name="actionbarButtonStyle" format="reference" />
+        <attr name="actionbarButtonSeparatorStyle" format="reference" />
+        <attr name="actionbarProgressIndicatorStyle" format="reference" />
+        
+        <attr name="departuremonitorLineIconStyleSTW" format="reference" />
+        <attr name="departuremonitorLineIconStyleOEBB" format="reference" />
+        
+        <attr name="buttonBarButtonStyle" format="reference" />
+    </declare-styleable>
+</resources>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- the layout is needed as a container for the margin of the progress bar to work -->
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android">
+	<ProgressBar style="@style/GenericProgressIndicator.Small" 
+	             android:layout_gravity="center"
+	             android:id="@+id/list_progress"
+	             android:padding="30dp"/>
+</FrameLayout>

@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Studentenportal</string>
+    <string name="app_version">Version %1$s</string>
+    <string name="app_name_departuremonitor">Abfahrtsmonitor Klagenfurt</string>
+    <string name="app_description">Inoffizieller Android-Client für Studierende der Alpen-Adria-Universität Klagenfurt.</string>
+    <string name="username">Benutzername</string>
+    <string name="password">Passwort</string>
+    <string name="save_password">Passwort speichern</string>
+    <string name="login">Anmelden</string>
+    <string name="logout">Abmelden</string>
+    <string name="logout_msg">Wenn du dich abmeldest, werden alle persönlichen Studentenportal-Daten von diesem Telefon entfernt. Möchtest du dich abmelden?</string>
+    <string name="error">Fehler</string>
+    <string name="loading">Lade…</string>
+    <string name="work_login">Anmelden…</string>
+    <string name="work_logout">Abmelden…</string>
+    <string name="settings">Einstellungen</string>
+    <string name="settings_loading">Einstellungen laden…</string>
+    <string name="settings_saving">Einstellungen speichern…</string>
+    <string name="date_format">dd.MM.yyyy</string>
+    <string name="time_format">kk:mm</string>
+    <string name="about">Info</string>
+    <string name="about_facebook_description">Für Fragen und Anmerkungen:</string>
+    <string name="about_supporters">Unterstützt durch</string>
+    <string name="about_os_licenses">Open-Source-Lizenzen</string>
+    <string name="info">Info</string>
+    <string name="unknown">unbekannt</string>
+    <string name="tomorrow">morgen</string>
+    <string name="yesterday">gestern</string>
+    <string name="ok_dont_show_again">OK, nicht mehr anzeigen</string>
+    <string name="attention">Achtung!</string>
+    <string name="close">Schließen</string>
+    <string name="moodle">Moodle</string>
+    <string name="yes">Ja</string>
+    <string name="no">Nein</string>
+    <string name="summerterm">Sommersemester %1$d</string>
+    <string name="winterterm">Wintersemester %1$d/%2$d</string>
+    <string name="retry">Wiederholen</string>
+    <string name="no_tel_nr">keine Telefonnummer angegeben</string>
+    
+    <string name="courses">LVs</string>
+    <string name="course_list_empty">Du bist zu keiner LV angemeldet.</string>
+    <string name="course_details">%1$s / %2$d SWS / %3$s</string>
+    <string name="course_show_details">Details</string>
+    <string name="course_details_title">LV-Details</string>
+    <string name="course_goto_website">Homepage</string>
+    <string name="course_goto_moodle">Moodle</string>
+    <string name="course_ignore">Kalender &amp; Automute</string>
+    <string name="course_checklists">Kreuzellisten</string>
+    <string name="course_checklist">Kreuzelliste</string>
+    <string name="course_checklist_empty">Diese Kreuzelliste enthält keine Aufgaben.</string>
+    <string name="course_checklists_empty">Keine Kreuzellisten gefunden.</string>
+    <string name="course_checklist_expires">Ablaufdatum</string>
+    <string name="course_checklist_discussion">Besprechungsdatum</string>
+    <string name="course_checklist_open">OFFEN</string>
+    <string name="course_checklist_closed">GESCHLOSSEN</string>
+    <string name="course_checklist_checks">%1$d/%2$d</string>
+    <string name="course_checklist_checksum">Summe:</string>
+    <string name="course_checklist_totalchecks">%1$d von %2$d = %3$.2f%%</string>
+    <string name="course_checklist_exercise">Aufgabe</string>
+    <string name="course_checklist_error_closed">Die Kreuzelliste ist bereits abgelaufen.</string>
+    <string name="course_participants">Kursteilnehmer</string>
+    <string name="course_participants_shared_data_notice">Deinen Kollegen werden folgende Daten von dir angezeigt: Name, E-Mail-Adresse</string>
+    <string name="course_participants_empty">In diesem Kurs wurden noch keine Teilnehmer aufgenommen.</string>
+    <string name="course_participant_call_home">Anrufen (Festnetz)</string>
+    <string name="course_participant_call_mobile">Anrufen (Mobil)</string>
+    <string name="course_participant_send_email">E-Mail senden</string>
+    <string name="course_participant_send_message">Nachricht senden</string>
+    <string name="course_participant_add_contact">Kontakt speichern</string>
+    
+    <string name="exams">Prüfungen</string>
+    <string name="exam_list_empty">Keine Prüfungen gefunden.</string>
+    <string name="exam_details">%1$td.%1$tm.%1$tY</string>
+    <string name="exam_status_notregistered">nicht angemeldet</string>
+    <string name="exam_status_registered">angemeldet</string>
+    <string name="exam_status_taken">angetreten</string>
+    <string name="exam_status_graded">benotet</string>
+    <string name="exam_status_approved">freigegeben</string>
+    <string name="exam_status_nottaken">nicht angetreten</string>
+    <string name="exam_status_rejected">abgewiesen</string>
+    <string name="exam_points_num">%1$.1f</string>
+    <string name="exam_points">Punkte</string>
+    <string name="exam_details_title">Prüfungsdetails</string>
+    
+    <string name="grades">Noten</string>
+    <string name="grade_list_empty">Du hast noch keine Note.</string>
+    <string name="grade_details">%1$td.%1$tm.%1$tY / %2$d SWS / %3$.1f ECTS</string>
+    <string name="grade_details_title">Prüfungsstatistik</string>
+    <string name="grade_fp">Fachprüfung</string>
+    
+    <string name="profile">Profil</string>
+    <string name="matnumber">Matrikelnummer:</string>
+    <string name="title_prefix">Titel (vorgestellt)</string>
+    <string name="title_suffix">Titel (nachgestellt)</string>
+    <string name="nickname">Nickname</string>
+    <string name="email_address">e-Mail</string>
+    <string name="validthru">gültig bis</string>
+    <string name="date_since">seit %1$td.%1$tm.%1$tY</string>
+    <string name="date_span">%1$td.%1$tm.%1$tY - %2$td.%2$tm.%2$tY</string>
+    <string name="studies_section">Studien / Curricula</string>
+    <string name="curriculum_link">&lt;a href=\"%1$s\">Curriculum %2$s&lt;/a></string>
+    <string name="semester_section">Semesterdaten</string>
+    <string name="semester_current">aktuelles Semester</string>
+    
+    <string name="calendar">Kalender</string>
+    <string name="calendar_time">%1$tH:%1$tM</string>
+    <string name="calendar_timespan">%1$tH:%1$tM - %2$tH:%2$tM</string>
+    <string name="calendar_date">%1$ta %1$td.%1$tm.</string>
+    <string name="calendar_date_dm">%1$td.%1$tm.</string>
+    <string name="calendar_date_dmy">%1$td.%1$tm.%1$tY</string>
+    <string name="calendar_date_dayname">%1$tA</string>
+    <string name="dates_upcoming">Kommende Termine</string>
+    <string name="dates_list_empty">Keine kommenden Termine gefunden.</string>
+    <string name="dates_today">Heute</string>
+    <string name="dates_tomorrow">Morgen</string>
+    <string name="dates_now">Jetzt</string>
+    <string name="dates_cancelled">Fällt aus</string>
+    
+    <string name="bus">Bus &amp; Zug</string>
+    <string name="bus_departures">Abfahrtsmonitor</string>
+    <string name="bus_departures_list_empty">Keine Abfahrten gefunden.</string>
+    <string name="bus_departure_time_passed">vor %1$d min</string>
+    <string name="bus_departure_time_now">jetzt</string>
+    <string name="bus_departure_time_near_future">in %1$d min</string>
+    <string name="bus_departures_disclaimer">Die hier präsentierten Daten werden direkt bei den Stadtwerken bezogen - für ihre Richtigkeit wird keine Verantwortung übernommen. Bitte stelle sicher, dass Uhrzeit und Datum auf deinem Telefon richtig eingestellt sind, um die Anzeige falscher Abfahrtszeiten zu vermeiden.</string>
+    <string name="bus_stops">Haltestellen</string>
+    <string name="bus_stops_loading">Haltestellen laden…</string>
+    <string name="bus_stops_loading_note">Dieser Vorgang kann eine Weile dauern…</string>
+    <string name="bus_stops_reload">Haltestellen neu laden</string>
+    <string name="bus_departures_error">Fehler beim Abrufen der Abfahrten.</string>
+    
+    <string name="map">Campus-Karte (beta)</string>
+    <string name="map_floors">Stockwerke</string>
+    <string name="map_pois">POIs</string>
+    <string name="map_error_nolocation">Position konnte nicht ermittelt werden.</string>
+    <string name="map_search_hint">Raum, Ort, Objekt…</string>
+    <string name="map_search_hint_start">Start</string>
+    <string name="map_search_hint_end">Ziel</string>
+    <string name="map_error_roomnotfound">Nicht gefunden: %1$s</string>
+    <string name="map_timeout">Die Karte ist zur Zeit nicht erreichbar. Bitte versuche es später erneut.</string>
+    <string name="map_searching">Suchen…</string>
+    
+    <string name="mensa">Mensa Speiseplan</string>
+    <string name="mensa_loading_error">Fehler beim Abrufen des Speiseplans. Bitte Versuche es später erneut.</string>
+    <string name="mensa_closed">Kein Speiseplan für diese Woche verfügbar.</string>
+    <string name="mensa_web">im Web anzeigen</string>
+    
+    <string name="error_logout_failed">Die Abmeldung ist fehlgeschlagen.</string>
+    <string name="error_fetching_dates">Die kommenden Termine konnten nicht abgerufen werden.</string>
+    <string name="error_login_failed">Anmeldung fehlgeschlagen</string>
+    <string name="error_login_failed_msg">Bitte stelle sicher, dass deine Anmeldedaten korrekt sind.</string>
+    <string name="error_login_failed_staff_msg">Nur für Studenten ;)</string>
+    <string name="error_session_expired">Du warst zu lange inaktiv und wurdest abgemeldet.</string>
+    <string name="error_unknown_host">Verbindung zum Server kann nicht hergestellt werden. Bitte stelle sicher dass eine Internetverbindung besteht oder versuche es später nochmal.</string>
+    <string name="error_timeout">Keine Antwort vom Server erhalten. Bitte versuche es später nochmal.</string>
+    <string name="error_ssl">Der Aufbau einer sicheren Verbindung zum Server ist fehlgeschlagen. Bitte versuche es später nochmal.</string>
+    <string name="error_reading_response">Daten können nicht gelesen werden.</string>
+    <string name="error_server_internal">Interner Servererror…</string>
+    <string name="error_not_found">Die angeforderte Funktion existiert nicht…</string>
+    <string name="error_not_authorized">Keine Authorisierung vorhanden…</string>
+    <string name="error_download_not_supported">Sorry, Downloads werden erst ab Android 2.3 unterstützt. Du verwendest Android %1$s.</string>
+    <string name="error_download_not_supported_https">Sorry, deine Android-Version unterstützt leider keine Downloads über gesicherte Verbindungen.</string>
+    <string name="error_notification_not_supported">Dieses Gerät unterstützt leider keine Push-Benachrichtigungen</string>
+    <string name="error_password_not_saved">Du musst im Anmeldebildschirm dein Passwort speichern damit dieses Service funktioniert!</string>
+    
+    <string name="automute">Automute</string>
+    <string name="automute_notification_disabled_no_courses">Automute deaktiviert. Keine weiteren Termine gefunden.</string>
+    <string name="automute_notification_course_started_locating">LV hat begonnen. Handy wird geortet…</string>
+    <string name="automute_notification_course_muted">LV läuft, Klingelton ist aus.</string>
+    <string name="automute_notification_onlineupdate_failed">Fehler beim Download neuer Termine. Bitte anmelden.</string>
+    
+    <string name="preference_automute">Automute</string>
+    <string name="preference_automute_summary">Klingelton während einer LV automatisch stumm schalten</string>
+    <string name="preference_automute_always">Immer</string>
+    <string name="preference_automute_always_summary">Stumm schalten wenn Handystandort nicht herausgefunden werden kann</string>
+    <string name="preference_section_miscellaneous">Verschiedenes</string>
+    <string name="preference_departuremonitor_launchericon">Abfahrtsmonitor Icon</string>
+    <string name="preference_departuremonitor_launchericon_summary">Fügt ein separates Icon für den Monitor hinzu, das ihn direkt startet</string>
+    <string name="preference_departuremonitor_launchericon_change_notice">Es kann eine Weile dauern bis die Applikationsliste aktualisiert und das Icon hinzugefügt bzw. entfernt wird.</string>
+    <string name="preference_purgecache">Cache leeren</string>
+    <string name="preference_purgecache_summary">Löscht alle lokal gespeicherten Daten und lädt sie bei Bedarf frisch vom Server</string>
+    <string name="preference_purgecache_toast">Cache geleert</string>
+    <string name="preference_notifications">Benachrichtigungen</string>
+    <string name="preference_notifications_summary">Echtzeitupdates über neue Noten, LV-Aufnahmen, STEOP- und Studienabschlüsse</string>
+    
+    <string name="preference_section_campus">campus.aau.at</string>
+    <string name="preference_campus">Campus-Einstellungen</string>
+    <string name="preference_campus_summary">Einstellungen des Studierendenportals auf campus.aau.at</string>
+    <string name="preference_campus_section_contactdata">Kontaktdaten</string>
+    <string name="preference_campus_phone_mobile">Telefonnummer (Mobil)</string>
+    <string name="preference_campus_phone_home">Telefonnummer (Studienadresse)</string>
+    <string name="preference_campus_picture">Foto</string>
+    <string name="preference_campus_section_participants_datasharing">Teilnehmerliste Datenfreigabe</string>
+    <string name="preference_campus_participants_datasharing_notice">Wenn du diese Daten freigibst werden sie nur jenen Studienkollegen angezeigt, die in denselben Kursen aufgenommen sind wie du. Dein Name und deine E-Mail-Adresse werden immer angezeigt.</string>
+    
+    <string name="widget_simplecalendar_title">AAU Kurstermine</string>
+    
+    <string name="notification_inskription">inskribiert</string>
+    <string name="notification_lv_aufgenommen">aufgenommen</string>
+    <string name="notification_lv_status">Statusänderung:</string>
+    <string name="notification_lv_ummeldung">Umgemeldet zu</string>
+    <string name="notification_pruefung_anmeldung">Prüfungsanmeldung</string>
+    <string name="notification_note_neu">Benotet:</string>
+    <string name="notification_studium_abschluss">Studium abgeschlossen</string>
+    <string name="notification_studium_abschnittsabschluss">Studienabschnitt abgeschlossen</string>
+    <string name="notification_steoperfuellt">STEOP erfüllt</string>
+</resources>

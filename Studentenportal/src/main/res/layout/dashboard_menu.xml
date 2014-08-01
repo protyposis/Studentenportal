@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/lay_main"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center_horizontal"
+    android:paddingBottom="@dimen/dashboard_padding"
+    android:paddingTop="@dimen/dashboard_padding" >
+
+    <Button
+        android:id="@+id/courses"
+        style="@style/DashboardButton"
+        android:drawableTop="@drawable/db_courses"
+        android:text="@string/courses" />
+
+    <Button
+        android:id="@+id/exams"
+        style="@style/DashboardButton"
+        android:layout_toRightOf="@id/courses"
+        android:drawableTop="@drawable/db_exams"
+        android:text="@string/exams" />
+
+    <Button
+        android:id="@+id/grades"
+        style="@style/DashboardButton"
+        android:layout_toRightOf="@id/exams"
+        android:drawableTop="@drawable/db_grades"
+        android:text="@string/grades" />
+
+    <Button
+        android:id="@+id/calendar"
+        style="@style/DashboardButton"
+        android:layout_below="@id/courses"
+        android:drawableTop="@drawable/db_calendar"
+        android:text="@string/calendar" />
+
+    <Button
+        android:id="@+id/profile"
+        style="@style/DashboardButton"
+        android:layout_below="@id/exams"
+        android:layout_toRightOf="@id/calendar"
+        android:drawableTop="@drawable/db_profile"
+        android:text="@string/profile" />
+
+    <Button
+        android:id="@+id/bus"
+        style="@style/DashboardButton"
+        android:layout_below="@id/grades"
+        android:layout_toRightOf="@id/profile"
+        android:drawableTop="@drawable/db_busstop"
+        android:text="@string/bus" />
+
+</RelativeLayout>

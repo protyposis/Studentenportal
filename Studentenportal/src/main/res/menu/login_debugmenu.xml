@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:title="@string/debug_settings" android:icon="@android:drawable/ic_menu_preferences" android:id="@+id/debug_preferences"></item>
+    <item android:title="@string/debug" android:icon="@android:drawable/ic_menu_info_details" android:id="@+id/debug"></item>
+    <item android:title="@string/debug_clear_cache" android:icon="@android:drawable/ic_menu_delete" android:id="@+id/debug_clear_cache"></item>
+    <item android:title="@string/logout" android:icon="@android:drawable/ic_menu_close_clear_cancel" android:id="@+id/logout"></item>
+    <item android:title="clear cookies" android:icon="@android:drawable/ic_menu_delete" android:id="@+id/clear_cookies"></item>
+    <item android:title="clear notifications check date" android:icon="@android:drawable/ic_menu_delete" android:id="@+id/clear_notificationscheckdate"></item>
+    <item android:title="get notifications" android:id="@+id/get_notifications"></item>
+    <!-- <item android:title="@string/update_check" android:icon="@android:drawable/ic_menu_search" android:id="@+id/update_check"></item> -->
+    <!-- <item android:title="@string/contact_developer" android:icon="@android:drawable/ic_menu_send" android:id="@+id/contact_developer"></item> -->
+</menu>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/gray_verydark" >
+
+    <TextView
+        android:id="@+id/dates_empty"
+        style="@style/EmptyListText"
+        android:text="@string/dates_list_empty"
+        android:textSize="@dimen/text_size_medium"
+        android:visibility="gone" />
+
+    <TableLayout
+        android:id="@+id/dates"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:paddingLeft="@dimen/element_spacing_half"
+        android:paddingRight="@dimen/element_spacing_half"
+        android:shrinkColumns="3" >
+    </TableLayout>
+
+    <RelativeLayout
+        android:id="@+id/dates_progress"
+        style="@style/GenericProgressBackground"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="@color/gray_verydark"
+        android:visibility="gone" >
+
+        <ProgressBar style="@style/GenericProgressIndicator" />
+    </RelativeLayout>
+
+</FrameLayout>

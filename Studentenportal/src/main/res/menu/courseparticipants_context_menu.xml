@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:title="@string/course_participant_send_email" android:id="@+id/send_email"></item>
+    <item android:title="@string/course_participant_send_message" android:id="@+id/send_message"></item>
+    <item android:title="@string/course_participant_call_mobile" android:id="@+id/call_mobile"></item>
+    <item android:title="@string/course_participant_call_home" android:id="@+id/call_home"></item>
+    <item android:title="@string/course_participant_add_contact" android:id="@+id/add_to_contacts"></item>
+</menu>

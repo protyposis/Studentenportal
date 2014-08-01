@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout style="@style/ActionBar" >
+
+        <ImageButton style="@style/ActionBarButton.Back" />
+
+        <TextView
+            style="@style/ActionBarText.ActivityTitle"
+            android:text="@string/profile" />
+    </LinearLayout>
+
+    <FrameLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+
+        <ScrollView
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent" >
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="@dimen/content_padding_normal" >
+
+                <at.ac.uniklu.mobile.sportal.UniCardView
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginBottom="@dimen/content_padding_normal" >
+
+                    <RelativeLayout
+                        android:id="@+id/unicard"
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:background="@drawable/unicard_bg"
+                        android:padding="5dp" >
+
+                        <ImageView
+                            android:id="@+id/unicardlogo"
+                            android:layout_width="wrap_content"
+                            android:layout_height="40dp"
+                            android:padding="10dp"
+                            android:scaleType="fitStart"
+                            android:src="@drawable/unicard" />
+
+                        <ImageView
+                            android:id="@+id/portrait_image"
+                            android:layout_width="100dp"
+                            android:layout_height="130dp"
+                            android:layout_alignParentLeft="true"
+                            android:layout_below="@id/unicardlogo"
+                            android:padding="5dp"
+                            android:scaleType="fitCenter" />
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentRight="true"
+                            android:layout_below="@id/unicardlogo"
+                            android:layout_toRightOf="@id/portrait_image"
+                            android:orientation="vertical" >
+
+                            <LinearLayout style="@style/ProfileRow" >
+
+                                <TextView
+                                    android:id="@+id/firstname"
+                                    style="@style/WrapContent"
+                                    android:textStyle="bold" />
+
+                                <TextView
+                                    android:id="@+id/lastname"
+                                    style="@style/WrapContent"
+                                    android:textStyle="bold" />
+
+                                <TextView
+                                    android:id="@+id/birthday"
+                                    style="@style/WrapContent" />
+
+                                <LinearLayout
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:orientation="horizontal" >
+
+                                    <TextView
+                                        style="@style/WrapContent"
+                                        android:text="@string/matnumber" />
+
+                                    <TextView
+                                        android:id="@+id/matnumber"
+                                        style="@style/WrapContent"
+                                        android:layout_marginLeft="5dp" />
+                                </LinearLayout>
+                            </LinearLayout>
+
+                            <LinearLayout style="@style/ProfileRow" >
+
+                                <TextView
+                                    style="@style/WrapContent"
+                                    android:text="@string/validthru" />
+
+                                <TextView
+                                    android:id="@+id/validthru"
+                                    style="@style/WrapContent"
+                                    android:background="@color/white"
+                                    android:padding="3dp" />
+                            </LinearLayout>
+                        </LinearLayout>
+                    </RelativeLayout>
+                </at.ac.uniklu.mobile.sportal.UniCardView>
+
+                <LinearLayout
+                    android:id="@+id/profile_details"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical" >
+
+                    <LinearLayout
+                        android:id="@+id/title_prefix_row"
+                        style="@style/ProfileRow" >
+
+                        <TextView
+                            style="@style/Label"
+                            android:text="@string/title_prefix" />
+
+                        <TextView
+                            android:id="@+id/title_prefix"
+                            style="@style/LabelValue" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/title_suffix_row"
+                        style="@style/ProfileRow" >
+
+                        <TextView
+                            style="@style/Label"
+                            android:text="@string/title_suffix" />
+
+                        <TextView
+                            android:id="@+id/title_suffix"
+                            style="@style/LabelValue" />
+                    </LinearLayout>
+
+                    <LinearLayout style="@style/ProfileRow" >
+
+                        <TextView
+                            style="@style/Label"
+                            android:text="@string/email_address" />
+
+                        <TextView
+                            android:id="@+id/email_address"
+                            style="@style/LabelValue" />
+                    </LinearLayout>
+
+                    <LinearLayout style="@style/ProfileRow" >
+
+                        <TextView
+                            style="@style/Label"
+                            android:text="@string/username" />
+
+                        <TextView
+                            android:id="@+id/username"
+                            style="@style/LabelValue" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/nickname_row"
+                        style="@style/ProfileRow" >
+
+                        <TextView
+                            style="@style/Label"
+                            android:text="@string/nickname" />
+
+                        <TextView
+                            android:id="@+id/nickname"
+                            style="@style/LabelValue" />
+                    </LinearLayout>
+
+                    <TextView
+                        style="@style/TextHeader2"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/semester_section" />
+
+                    <LinearLayout style="@style/ProfileRow" >
+
+                        <TextView
+                            style="@style/Label"
+                            android:text="@string/semester_current" />
+
+                        <TextView
+                            android:id="@+id/current_semester_name"
+                            style="@style/LabelValue" />
+
+                        <TextView
+                            android:id="@+id/current_semester_datespan"
+                            style="@style/LabelValue" />
+                    </LinearLayout>
+
+                    <TextView
+                        style="@style/TextHeader2"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/studies_section" />
+                </LinearLayout>
+            </LinearLayout>
+        </ScrollView>
+
+        <RelativeLayout
+            android:id="@+id/progress"
+            style="@style/GenericProgressBackground"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:visibility="gone" >
+
+            <ProgressBar style="@style/GenericProgressIndicator.Large" />
+        </RelativeLayout>
+    </FrameLayout>
+
+</LinearLayout>

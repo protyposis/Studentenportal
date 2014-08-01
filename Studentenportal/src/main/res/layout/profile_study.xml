@@ -1,0 +1,28 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/ProfileRow" >
+
+    <TextView
+        android:id="@+id/text_title"
+        style="@style/Label"
+        android:text="Title" />
+
+    <TextView
+        android:id="@+id/text_details"
+        style="@style/LabelValue"
+        android:text="Details..." />
+
+    <TextView
+        android:id="@+id/link_curriculum1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Curriculum link 1" >
+    </TextView>
+
+    <TextView
+        android:id="@+id/link_curriculum2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Curriculum link 2" >
+    </TextView>
+
+</LinearLayout>

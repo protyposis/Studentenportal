@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout style="@style/ActionBar" >
+
+        <ImageButton style="@style/ActionBarButton.Back" />
+
+        <TextView
+            style="@style/ActionBarText.ActivityTitle"
+            android:text="@string/calendar" />
+    </LinearLayout>
+
+    <fragment
+        android:id="@+id/calendar_fragment"
+        android:name="at.ac.uniklu.mobile.sportal.CalendarFragment"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        tools:layout="@layout/calendar_fragment" />
+
+</LinearLayout>

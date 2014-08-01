@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/ListViewItem" >
+
+    <TextView
+        android:id="@+id/text_title"
+        style="@style/ListViewItemText.Header"
+        android:text="Title"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/text_time"
+        style="@style/ListViewItemText.Secondary"
+        android:layout_below="@id/text_title"
+        android:paddingRight="@dimen/element_spacing_half"
+        android:text="Time" />
+
+    <TextView
+        android:id="@+id/text_room"
+        style="@style/ListViewItemText.Secondary"
+        android:layout_alignTop="@id/text_time"
+        android:layout_toRightOf="@id/text_time"
+        android:paddingRight="@dimen/element_spacing_half"
+        android:text="Room" />
+
+    <TextView
+        android:id="@+id/text_label"
+        style="@style/Tag"
+        android:layout_alignBaseline="@id/text_time"
+        android:layout_alignParentRight="true"
+        android:background="@color/date_running"
+        android:text="JETZT" />
+
+</RelativeLayout>

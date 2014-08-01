@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/ListViewItem" >
+
+    <RelativeLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1" >
+
+        <TextView
+            android:id="@+id/text_title"
+            style="@style/ListViewItemText.Header"
+            android:layout_alignParentLeft="true"
+            android:layout_toLeftOf="@+id/checklist"
+            android:text="Title" />
+
+        <TextView
+            android:id="@+id/text_type"
+            style="@style/ListViewItemText.SecondaryEmphasized"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/text_title"
+            android:paddingRight="@dimen/element_spacing_half"
+            android:text="TYPE" />
+
+        <TextView
+            android:id="@+id/text_details"
+            style="@style/ListViewItemText.Secondary"
+            android:layout_alignBaseline="@id/text_type"
+            android:layout_toRightOf="@+id/text_type"
+            android:text="Details..." />
+    </RelativeLayout>
+
+    <ImageView
+        android:id="@+id/checklist"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_checks" />
+
+</LinearLayout>

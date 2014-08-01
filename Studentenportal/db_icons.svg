@@ -1,0 +1,512 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="210mm"
+   height="297mm"
+   id="svg2"
+   version="1.1"
+   inkscape:version="0.48.4 r9939"
+   sodipodi:docname="db_icons.svg">
+  <defs
+     id="defs4" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#000000"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="1.979899"
+     inkscape:cx="95.951137"
+     inkscape:cy="830.25439"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:window-width="1920"
+     inkscape:window-height="1138"
+     inkscape:window-x="1912"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Ebene 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <rect
+       style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none"
+       id="rect3801"
+       width="360.11938"
+       height="235.87062"
+       x="1.5152287"
+       y="52.311146" />
+    <g
+       id="db_grades"
+       inkscape:label="#g4218"
+       transform="translate(6.0609152,0)"
+       inkscape:export-filename="db_grades.png"
+       inkscape:export-xdpi="248.14505"
+       inkscape:export-ydpi="248.14505"
+       style="fill:#54b9ea;fill-opacity:1;stroke:none;stroke-opacity:1">
+      <rect
+         y="91.977501"
+         x="161.65253"
+         height="34.818344"
+         width="34.818344"
+         id="rect3918-5"
+         style="opacity:0;fill:#54b9ea;stroke:none;fill-opacity:1;stroke-opacity:1" />
+      <g
+         inkscape:export-ydpi="135"
+         inkscape:export-xdpi="135"
+         inkscape:export-filename="C:\Users\Mario\Desktop\db_grades.png"
+         style="fill:#54b9ea;fill-opacity:1;stroke:none;stroke-opacity:1"
+         transform="translate(163.0627,95.386673)"
+         id="g3041">
+        <g
+           style="fill:#54b9ea;fill-opacity:1;stroke:none;stroke-opacity:1"
+           id="Layer_1-1" />
+        <g
+           style="fill:#54b9ea;fill-opacity:1;stroke:none;stroke-opacity:1"
+           id="list">
+          <g
+             style="fill:#54b9ea;fill-opacity:1;stroke:none;stroke-opacity:1"
+             id="g3017">
+            <circle
+               d="M 4,2 C 4,3.1045695 3.1045695,4 2,4 0.8954305,4 0,3.1045695 0,2 0,0.8954305 0.8954305,0 2,0 3.1045695,0 4,0.8954305 4,2 z"
+               sodipodi:ry="2"
+               sodipodi:rx="2"
+               sodipodi:cy="2"
+               sodipodi:cx="2"
+               style="fill:#54b9ea;fill-opacity:1;stroke:none;stroke-opacity:1"
+               cx="2"
+               cy="2"
+               r="2"
+               id="circle3019" />
+            <circle
+               d="M 4,10 C 4,11.104569 3.1045695,12 2,12 0.8954305,12 0,11.104569 0,10 0,8.8954305 0.8954305,8 2,8 3.1045695,8 4,8.8954305 4,10 z"
+               sodipodi:ry="2"
+               sodipodi:rx="2"
+               sodipodi:cy="10"
+               sodipodi:cx="2"
+               style="fill:#54b9ea;fill-opacity:1;stroke:none;stroke-opacity:1"
+               cx="2"
+               cy="10"
+               r="2"
+               id="circle3021" />
+            <circle
+               d="m 4,18 c 0,1.104569 -0.8954305,2 -2,2 -1.1045695,0 -2,-0.895431 -2,-2 0,-1.104569 0.8954305,-2 2,-2 1.1045695,0 2,0.895431 2,2 z"
+               sodipodi:ry="2"
+               sodipodi:rx="2"
+               sodipodi:cy="18"
+               sodipodi:cx="2"
+               style="fill:#54b9ea;fill-opacity:1;stroke:none;stroke-opacity:1"
+               cx="2"
+               cy="18"
+               r="2"
+               id="circle3023" />
+            <circle
+               d="m 4,26 c 0,1.104569 -0.8954305,2 -2,2 -1.1045695,0 -2,-0.895431 -2,-2 0,-1.104569 0.8954305,-2 2,-2 1.1045695,0 2,0.895431 2,2 z"
+               sodipodi:ry="2"
+               sodipodi:rx="2"
+               sodipodi:cy="26"
+               sodipodi:cx="2"
+               style="fill:#54b9ea;fill-opacity:1;stroke:none;stroke-opacity:1"
+               cx="2"
+               cy="26"
+               r="2"
+               id="circle3025" />
+            <rect
+               y="0"
+               x="8"
+               style="fill:#54b9ea;fill-opacity:1;stroke:none;stroke-opacity:1"
+               width="23.997999"
+               height="4"
+               id="rect3027" />
+            <rect
+               x="8"
+               y="8"
+               style="fill:#54b9ea;fill-opacity:1;stroke:none;stroke-opacity:1"
+               width="23.997999"
+               height="4"
+               id="rect3029" />
+            <rect
+               x="8"
+               y="16"
+               style="fill:#54b9ea;fill-opacity:1;stroke:none;stroke-opacity:1"
+               width="23.997999"
+               height="4"
+               id="rect3031" />
+            <rect
+               x="8"
+               y="24"
+               style="fill:#54b9ea;fill-opacity:1;stroke:none;stroke-opacity:1"
+               width="23.997999"
+               height="4"
+               id="rect3033" />
+          </g>
+        </g>
+      </g>
+    </g>
+    <g
+       id="db_exams"
+       inkscape:label="#g4211"
+       transform="translate(3.0304576,0.50507627)"
+       inkscape:export-filename="db_exams.png"
+       inkscape:export-xdpi="248.145"
+       inkscape:export-ydpi="248.145"
+       style="fill:#54b9ea;fill-opacity:1;stroke:none;stroke-opacity:1">
+      <rect
+         y="91.800514"
+         x="98.562553"
+         height="34.818344"
+         width="34.818344"
+         id="rect3918-61"
+         style="opacity:0;fill:#54b9ea;stroke:none;fill-opacity:1;stroke-opacity:1" />
+      <g
+         inkscape:export-ydpi="135"
+         inkscape:export-xdpi="135"
+         inkscape:export-filename="C:\Users\Mario\Desktop\db_exams.png"
+         style="fill:#54b9ea;fill-opacity:1;stroke:none;stroke-opacity:1"
+         transform="translate(99.971853,93.209684)"
+         id="g3066">
+        <g
+           style="fill:#54b9ea;fill-opacity:1;stroke:none;stroke-opacity:1"
+           id="Layer_1-7" />
+        <g
+           style="fill:#54b9ea;fill-opacity:1;stroke:none;stroke-opacity:1"
+           id="pen_x5F_alt_x5F_stroke">
+          <path
+             inkscape:connector-curvature="0"
+             style="fill:#54b9ea;fill-opacity:1;stroke:none;stroke-opacity:1"
+             d="M 29.656,2.344 C 28.094,0.781 26.047,0 24,0 21.953,0 19.906,0.781 18.344,2.344 L 0.031,20.656 0,32 H 11.312 L 29.656,13.656 c 3.125,-3.125 3.125,-8.187 0,-11.312 z M 9.656,28 H 9.613 c 1.562,-1.562 1.562,-4.125 0,-5.688 C 8.117,20.816 5.754,20.796 4.183,22.164 L 21.137,5.211 26.793,10.867 9.656,28 z"
+             id="path3058" />
+        </g>
+      </g>
+    </g>
+    <g
+       id="db_profile"
+       inkscape:label="#g4243"
+       transform="translate(13.637059,-0.50507627)"
+       inkscape:export-filename="db_profile.png"
+       inkscape:export-xdpi="248.14505"
+       inkscape:export-ydpi="248.14505"
+       style="fill:#54b9ea;fill-opacity:1;stroke:none;stroke-opacity:1">
+      <rect
+         y="181.86089"
+         x="89.820137"
+         height="34.818344"
+         width="34.818344"
+         id="rect3918-7"
+         style="opacity:0;fill:#54b9ea;stroke:none;fill-opacity:1;stroke-opacity:1" />
+      <g
+         inkscape:export-ydpi="135"
+         inkscape:export-xdpi="135"
+         inkscape:export-filename="C:\Users\Mario\Desktop\db_profile.png"
+         style="fill:#54b9ea;fill-opacity:1;stroke:none;stroke-opacity:1"
+         transform="translate(95.229311,183.27005)"
+         id="g3087">
+        <g
+           style="fill:#54b9ea;fill-opacity:1;stroke:none;stroke-opacity:1"
+           id="Layer_1-4" />
+        <g
+           style="fill:#54b9ea;fill-opacity:1;stroke:none;stroke-opacity:1"
+           id="user">
+          <g
+             style="fill:#54b9ea;fill-opacity:1;stroke:none;stroke-opacity:1"
+             id="g3075">
+            <path
+               inkscape:connector-curvature="0"
+               style="fill:#54b9ea;fill-opacity:1;stroke:none;stroke-opacity:1"
+               d="M 12,16 C 5.375,16 0,21.375 0,28 c 0,2.211 1.789,4 4,4 h 16 c 2.211,0 4,-1.789 4,-4 0,-6.625 -5.375,-12 -12,-12 z"
+               id="path3077" />
+            <circle
+               d="m 18,6 c 0,3.3137085 -2.686292,6 -6,6 C 8.6862915,12 6,9.3137085 6,6 6,2.6862915 8.6862915,0 12,0 c 3.313708,0 6,2.6862915 6,6 z"
+               sodipodi:ry="6"
+               sodipodi:rx="6"
+               sodipodi:cy="6"
+               sodipodi:cx="12"
+               style="fill:#54b9ea;fill-opacity:1;stroke:none;stroke-opacity:1"
+               cx="12"
+               cy="6"
+               r="6"
+               id="circle3079" />
+          </g>
+        </g>
+      </g>
+    </g>
+    <g
+       id="db_calendar"
+       inkscape:label="#g4233"
+       transform="translate(4.7300695e-7,-2.0203051)"
+       inkscape:export-filename="db_calendar.png"
+       inkscape:export-xdpi="248.14505"
+       inkscape:export-ydpi="248.14505"
+       style="fill:#54b9ea;fill-opacity:1;stroke:none;stroke-opacity:1">
+      <rect
+         y="182.82408"
+         x="34.02739"
+         height="34.818344"
+         width="34.818344"
+         id="rect3918-6"
+         style="opacity:0;fill:#54b9ea;stroke:none;fill-opacity:1;stroke-opacity:1" />
+      <g
+         style="fill:#54b9ea;fill-opacity:1;stroke:none;stroke-opacity:1"
+         inkscape:export-ydpi="135"
+         inkscape:export-xdpi="135"
+         inkscape:export-filename="C:\Users\Mario\Desktop\db_calendar.png"
+         transform="translate(35.43656,184.23326)"
+         id="g3112">
+        <g
+           style="fill:#54b9ea;fill-opacity:1;stroke:none;stroke-opacity:1"
+           id="Layer_1-9" />
+        <g
+           style="fill:#54b9ea;fill-opacity:1;stroke:none;stroke-opacity:1"
+           id="calendar_x5F_alt_x5F_fill">
+          <g
+             style="fill:#54b9ea;fill-opacity:1;stroke:none;stroke-opacity:1"
+             id="g3098">
+            <path
+               inkscape:connector-curvature="0"
+               style="fill:#54b9ea;fill-opacity:1;stroke:none;stroke-opacity:1"
+               d="m 26,4 v 2.047 c 0,2.211 -1.789,4 -4,4 -2.211,0 -4,-1.789 -4,-4 V 4 h -4 v 2.047 c 0,2.211 -1.789,4 -4,4 -2.211,0 -4,-1.789 -4,-4 V 4 H 0 V 32 H 32 V 4 H 26 z M 10,28 H 6 v -4 h 4 v 4 z m 0,-8 H 6 v -4 h 4 v 4 z m 8,8 h -4 v -4 h 4 v 4 z m 0,-7.992 h -4 v -4 h 4 v 4 z M 22,28 v -4 h 4 l -4,4 z m 4,-8 h -4 v -4 h 4 v 4 z"
+               id="path3100" />
+            <path
+               inkscape:connector-curvature="0"
+               style="fill:#54b9ea;fill-opacity:1;stroke:none;stroke-opacity:1"
+               d="M 8,6 V 2 c 0,-1.105 0.895,-2 2,-2 1.105,0 2,0.895 2,2 V 6 C 12,7.105 11.105,8 10,8 8.895,8 8,7.105 8,6 z"
+               id="path3102" />
+            <path
+               inkscape:connector-curvature="0"
+               style="fill:#54b9ea;fill-opacity:1;stroke:none;stroke-opacity:1"
+               d="M 20,6 V 2 c 0,-1.105 0.895,-2 2,-2 1.105,0 2,0.895 2,2 V 6 C 24,7.105 23.105,8 22,8 20.895,8 20,7.105 20,6 z"
+               id="path3104" />
+          </g>
+        </g>
+      </g>
+    </g>
+    <text
+       xml:space="preserve"
+       style="font-size:10px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;font-family:Sans"
+       x="34.850262"
+       y="83.99678"
+       id="text3941"
+       sodipodi:linespacing="125%"
+       inkscape:export-filename="C:\Users\Mario\Desktop\db_lvs.png"
+       inkscape:export-xdpi="135"
+       inkscape:export-ydpi="135"><tspan
+         sodipodi:role="line"
+         id="tspan3943"
+         x="34.850262"
+         y="83.99678">ICONIC</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:10px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;font-family:Sans"
+       x="100.97104"
+       y="83.99678"
+       id="text3941-1"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan3943-6"
+         x="100.97104"
+         y="83.99678">ICONIC</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:10px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;font-family:Sans"
+       x="167.09181"
+       y="83.99678"
+       id="text3941-1-3"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan3943-6-2"
+         x="167.09181"
+         y="83.99678">ICONIC</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:10px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;font-family:Sans"
+       x="35.77198"
+       y="171.677"
+       id="text3941-1-3-6"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan3943-6-2-0"
+         x="35.77198"
+         y="171.677">ICONIC</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:10px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;font-family:Sans"
+       x="104.40083"
+       y="171.677"
+       id="text3941-1-3-6-6"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan3943-6-2-0-2"
+         x="104.40083"
+         y="171.677">ICONIC</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:10px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;font-family:Sans"
+       x="170.62732"
+       y="171.67212"
+       id="text3941-1-3-6-6-8"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan3943-6-2-0-2-8"
+         x="170.62732"
+         y="171.67212">MYSELF</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:10px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;font-family:Sans"
+       x="30.809652"
+       y="276.56503"
+       id="text4050"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan4052"
+         x="30.809652"
+         y="276.56503">ICONIC: https://github.com/somerandomdude/Iconic (CC BY-SA 3.0)</tspan></text>
+    <g
+       id="db_courses"
+       inkscape:label="#g4204"
+       transform="translate(0,1.5152288)"
+       inkscape:export-filename="db_courses.png"
+       inkscape:export-xdpi="248.14503"
+       inkscape:export-ydpi="248.14503"
+       style="fill:#54b9ea;fill-opacity:1;stroke:none;stroke-opacity:1;stroke-linejoin:miter;stroke-linecap:butt">
+      <rect
+         y="89.686821"
+         x="34.990597"
+         height="34.818344"
+         width="34.818344"
+         id="rect3918-3"
+         style="opacity:0;fill:#54b9ea;stroke:none;fill-opacity:1;stroke-opacity:1;stroke-linejoin:miter;stroke-linecap:butt" />
+      <g
+         transform="translate(36.39977,93.095993)"
+         inkscape:export-ydpi="135"
+         inkscape:export-xdpi="135"
+         inkscape:export-filename="C:\Users\Mario\Desktop\db_lvs.png"
+         style="fill:#54b9ea;fill-opacity:1;stroke:none;stroke-opacity:1;stroke-linejoin:miter;stroke-linecap:butt"
+         id="g3008-5">
+        <g
+           style="fill:#54b9ea;fill-opacity:1;stroke:none;stroke-opacity:1;stroke-linejoin:miter;stroke-linecap:butt"
+           id="Layer_1-98" />
+        <g
+           style="fill:#54b9ea;fill-opacity:1;stroke:none;stroke-opacity:1;stroke-linejoin:miter;stroke-linecap:butt"
+           id="book_x5F_alt2-4">
+          <path
+             inkscape:connector-curvature="0"
+             style="fill:#54b9ea;fill-opacity:1;stroke:none;stroke-opacity:1;stroke-linejoin:miter;stroke-linecap:butt"
+             d="M 16,4 C 16,4 12,0 0,0 v 24 c 12.125,0 16,4 16,4 0,0 3.875,-4 16,-4 V 0 C 20,0 16,4 16,4 z M 4,4 c 5.084,0.426 8.203,1.602 10,2.555 V 22.664 C 12.203,21.715 9.084,20.539 4,20.109 V 4 z m 24,16.109 c -5.086,0.43 -8.203,1.605 -10,2.555 V 6.555 C 19.797,5.602 22.914,4.426 28,4 v 16.109 z"
+             id="path3000-0" />
+        </g>
+      </g>
+    </g>
+    <g
+       id="db_busstop"
+       inkscape:label="#g4338"
+       transform="translate(-115.15739,-5.0507627)"
+       style="stroke:none;stroke-opacity:1"
+       inkscape:export-filename="db_busstop.png"
+       inkscape:export-xdpi="248.14505"
+       inkscape:export-ydpi="248.14505">
+      <rect
+         y="188.44519"
+         x="285.6366"
+         height="34.818344"
+         width="34.818344"
+         id="rect3918-2"
+         style="opacity:0;fill:#54b9ea;fill-opacity:1;stroke:none;stroke-opacity:1" />
+      <g
+         style="stroke:none;stroke-opacity:1"
+         id="g4333">
+        <path
+           style="font-size:medium;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-indent:0;text-align:start;text-decoration:none;line-height:normal;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:start;baseline-shift:baseline;color:#000000;fill:#54b9ea;fill-opacity:1;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:Sans;-inkscape-font-specification:Sans;stroke-opacity:1"
+           d="m 303.04576,189.96588 c -8.75421,0 -15.88849,7.13428 -15.88849,15.88848 0,8.75421 7.13428,15.88849 15.88849,15.88849 8.7542,0 15.88848,-7.13428 15.88848,-15.88849 0,-8.7542 -7.13428,-15.88848 -15.88848,-15.88848 z m 0,3.59952 c 6.80888,0 12.28897,5.48009 12.28897,12.28896 0,6.80889 -5.48009,12.28897 -12.28897,12.28897 -6.80888,0 -12.28897,-5.48008 -12.28897,-12.28897 0,-6.80887 5.48009,-12.28896 12.28897,-12.28896 z"
+           id="path3120-0"
+           inkscape:connector-curvature="0"
+           inkscape:export-filename="C:\Users\Mario\Desktop\db_busstop.png"
+           inkscape:export-xdpi="122.33628"
+           inkscape:export-ydpi="122.33628" />
+        <text
+           xml:space="preserve"
+           style="font-size:25.34047318000000000px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#54b9ea;fill-opacity:1;stroke:none;font-family:Sans;stroke-opacity:1"
+           x="295.58066"
+           y="214.93425"
+           id="text3890-1-3"
+           sodipodi:linespacing="125%"
+           inkscape:export-filename="C:\Users\Mario\Desktop\db_busstop.png"
+           inkscape:export-xdpi="122.33628"
+           inkscape:export-ydpi="122.33628"><tspan
+             sodipodi:role="line"
+             id="tspan3892-8-9"
+             x="295.58066"
+             y="214.93425"
+             style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;fill:#54b9ea;fill-opacity:1;stroke:none;font-family:Arial Narrow;-inkscape-font-specification:Arial Narrow Bold;stroke-opacity:1">H</tspan></text>
+      </g>
+    </g>
+    <text
+       xml:space="preserve"
+       style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       x="10.101525"
+       y="306.86963"
+       id="text3048"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan3050"
+         x="10.101525"
+         y="306.86963"
+         style="font-size:10px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;font-family:Sans;-inkscape-font-specification:Sans">Google suggests using 3:4:6:8 scaling ratio for ldpi:mdpi:hdpi:xhdpi accordingly. Example:</tspan><tspan
+         sodipodi:role="line"
+         x="10.101525"
+         y="319.36963"
+         id="tspan3052"
+         style="font-size:10px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;font-family:Sans;-inkscape-font-specification:Sans" /><tspan
+         sodipodi:role="line"
+         x="10.101525"
+         y="331.86963"
+         id="tspan3054"
+         style="font-size:10px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;font-family:Sans;-inkscape-font-specification:Sans">36x36 for low-density</tspan><tspan
+         sodipodi:role="line"
+         x="10.101525"
+         y="344.36963"
+         id="tspan3056"
+         style="font-size:10px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;font-family:Sans;-inkscape-font-specification:Sans">48x48 for medium-density</tspan><tspan
+         sodipodi:role="line"
+         x="10.101525"
+         y="356.86963"
+         id="tspan3058"
+         style="font-size:10px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;font-family:Sans;-inkscape-font-specification:Sans">72x72 for high-density</tspan><tspan
+         sodipodi:role="line"
+         x="10.101525"
+         y="369.36963"
+         id="tspan3060"
+         style="font-size:10px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;font-family:Sans;-inkscape-font-specification:Sans">96x96 for extra high-density</tspan><tspan
+         sodipodi:role="line"
+         x="10.101525"
+         y="381.86963"
+         style="font-size:10px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;font-family:Sans;-inkscape-font-specification:Sans"
+         id="tspan3062" /><tspan
+         sodipodi:role="line"
+         x="10.101525"
+         y="394.36963"
+         style="font-size:10px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;font-family:Sans;-inkscape-font-specification:Sans"
+         id="tspan3064">http://stackoverflow.com/questions/8232322/graphic-dimensions-for-hdpi-ldpi-mdpi</tspan></text>
+  </g>
+</svg>

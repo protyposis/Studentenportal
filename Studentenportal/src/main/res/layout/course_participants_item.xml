@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/ListViewItem"
+    android:gravity="left" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_toLeftOf="@+id/picture"
+        android:orientation="vertical"
+        android:padding="@dimen/element_spacing_half" >
+
+        <TextView
+            android:id="@+id/text_name"
+            style="@style/ListViewItemText.Header"
+            android:singleLine="true"
+            android:text="Max Mustermann" >
+        </TextView>
+
+        <TextView
+            android:id="@+id/text_email"
+            style="@style/ListViewItemText.Secondary"
+            android:drawableLeft="@drawable/at_16x16"
+            android:drawablePadding="@dimen/element_spacing_half"
+            android:focusable="false"
+            android:gravity="center_vertical"
+            android:text="max.mustermann@edu.uni-klu.ac.at" >
+        </TextView>
+
+        <TextView
+            android:id="@+id/text_phone"
+            style="@style/ListViewItemText.Secondary"
+            android:drawableLeft="@drawable/home_16x16"
+            android:drawablePadding="@dimen/element_spacing_half"
+            android:focusable="false"
+            android:text="+43424266666" >
+        </TextView>
+
+        <TextView
+            android:id="@+id/text_mobilephone"
+            style="@style/ListViewItemText.Secondary"
+            android:drawableLeft="@drawable/iphone_16x16"
+            android:drawablePadding="@dimen/element_spacing_half"
+            android:focusable="false"
+            android:text="+436501234567" >
+        </TextView>
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/picture"
+        android:layout_width="?android:attr/listPreferredItemHeight"
+        android:layout_height="?android:attr/listPreferredItemHeight"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:background="@drawable/ic_contact_picture"
+        android:scaleType="centerCrop" />
+
+</RelativeLayout>

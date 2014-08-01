@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout style="@style/ActionBar" >
+        <ImageButton style="@style/ActionBarButton.Back" />
+        <LinearLayout style="@style/ActionBarTextContainer" >
+            <TextView
+                android:id="@+id/view_subtitle"
+                style="@style/ActionBarText.ActivitySubTitle" />
+            <TextView
+                style="@style/ActionBarText.ActivityTitle"
+                android:text="@string/course_checklists" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+        <ListView 
+            style="@style/ListView" 
+            android:layout_above="@+id/total_checks_stats" />
+
+        <TextView
+            android:id="@android:id/empty"
+            style="@style/EmptyListText"
+            android:text="@string/course_checklists_empty"
+            android:visibility="gone"
+            android:layout_above="@id/total_checks_stats" />
+
+        <RelativeLayout
+            android:id="@+id/progress"
+            style="@style/GenericProgressBackground"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:visibility="gone"
+            android:layout_above="@id/total_checks_stats" >
+
+            <ProgressBar style="@style/GenericProgressIndicator.Large" />
+        </RelativeLayout>
+
+        <LinearLayout
+            android:id="@+id/total_checks_stats"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:background="@color/unidarkblue_dark"
+            android:orientation="horizontal"
+            android:padding="@dimen/element_spacing_normal"
+            android:visibility="gone" >
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/course_checklist_checksum"
+                android:textColor="@color/text_primary"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/total_checks"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="@dimen/element_spacing_half"
+                android:text="50/50 (100%)"
+                android:textColor="@color/text_primary"
+                android:textSize="16sp" />
+        </LinearLayout>
+    </RelativeLayout>
+
+</LinearLayout>
